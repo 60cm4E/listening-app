@@ -1,0 +1,471 @@
+{
+  "round": 7,
+  "title": "7회 모의고사",
+  "totalQuestions": 15,
+  "vocabulary": [
+    {
+      "word": "mirror",
+      "meaning": "거울"
+    },
+    {
+      "word": "mountain",
+      "meaning": "산"
+    },
+    {
+      "word": "taekwondo",
+      "meaning": "태권도"
+    },
+    {
+      "word": "kitchen",
+      "meaning": "부엌"
+    },
+    {
+      "word": "blonde",
+      "meaning": "금발의"
+    },
+    {
+      "word": "painting",
+      "meaning": "그림"
+    },
+    {
+      "word": "alive",
+      "meaning": "살아 있는"
+    },
+    {
+      "word": "join",
+      "meaning": "참가하다"
+    },
+    {
+      "word": "excited",
+      "meaning": "신이 난"
+    },
+    {
+      "word": "beach",
+      "meaning": "해변"
+    },
+    {
+      "word": "hard",
+      "meaning": "열심히"
+    },
+    {
+      "word": "store",
+      "meaning": "가게, 상점"
+    },
+    {
+      "word": "cheer up",
+      "meaning": "기운 내다"
+    },
+    {
+      "word": "night",
+      "meaning": "밤"
+    },
+    {
+      "word": "camping",
+      "meaning": "캠핑, 야영"
+    },
+    {
+      "word": "work",
+      "meaning": "일하다"
+    },
+    {
+      "word": "field",
+      "meaning": "들판"
+    },
+    {
+      "word": "yours",
+      "meaning": "너의 것"
+    },
+    {
+      "word": "bright",
+      "meaning": "선명한, 밝은"
+    },
+    {
+      "word": "tall",
+      "meaning": "키가 큰"
+    },
+    {
+      "word": "first",
+      "meaning": "첫 번째"
+    },
+    {
+      "word": "grass",
+      "meaning": "풀밭"
+    },
+    {
+      "word": "come in",
+      "meaning": "들어가다"
+    },
+    {
+      "word": "color",
+      "meaning": "색깔"
+    },
+    {
+      "word": "windy",
+      "meaning": "바람이 부는"
+    },
+    {
+      "word": "sorry",
+      "meaning": "미안한"
+    },
+    {
+      "word": "jacket",
+      "meaning": "재킷"
+    },
+    {
+      "word": "chair",
+      "meaning": "의자"
+    },
+    {
+      "word": "photo",
+      "meaning": "사진"
+    },
+    {
+      "word": "hair",
+      "meaning": "머리"
+    },
+    {
+      "word": "blonde를",
+      "meaning": "사용함)"
+    },
+    {
+      "word": "summer",
+      "meaning": "여름"
+    },
+    {
+      "word": "fun",
+      "meaning": "재미난"
+    },
+    {
+      "word": "last",
+      "meaning": "지난"
+    },
+    {
+      "word": "visit의",
+      "meaning": "과거형)"
+    },
+    {
+      "word": "uncle",
+      "meaning": "삼촌"
+    },
+    {
+      "word": "go의",
+      "meaning": "과거형)"
+    },
+    {
+      "word": "table tennis",
+      "meaning": "탁구"
+    },
+    {
+      "word": "see",
+      "meaning": "알다"
+    },
+    {
+      "word": "next time",
+      "meaning": "다음 번에"
+    },
+    {
+      "word": "old",
+      "meaning": "오래된"
+    },
+    {
+      "word": "tiger",
+      "meaning": "호랑이"
+    },
+    {
+      "word": "look  ~인",
+      "meaning": "것 같다"
+    },
+    {
+      "word": "beautiful",
+      "meaning": "아름다운"
+    },
+    {
+      "word": "get",
+      "meaning": "도착하다"
+    },
+    {
+      "word": "by bus",
+      "meaning": "버스를 타고"
+    },
+    {
+      "word": "next to  ~",
+      "meaning": "옆에"
+    },
+    {
+      "word": "shopping mall",
+      "meaning": "쇼핑몰"
+    },
+    {
+      "word": "animal doctor",
+      "meaning": "수의사"
+    },
+    {
+      "word": "sick",
+      "meaning": "아픈"
+    },
+    {
+      "word": "bird",
+      "meaning": "새"
+    },
+    {
+      "word": "fly",
+      "meaning": "날다"
+    },
+    {
+      "word": "horse",
+      "meaning": "말"
+    },
+    {
+      "word": "week",
+      "meaning": "주"
+    },
+    {
+      "word": "from  ~",
+      "meaning": "출신의"
+    },
+    {
+      "word": "excuse me",
+      "meaning": "실례하다"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "notebook",
+        "name",
+        "mirror",
+        "night"
+      ],
+      "answer": 3,
+      "script": "M: notebook\nM: name\nM: mirror\nM: night",
+      "explanation": "mirror는 /m/으로 시작 하고, 나머지 모두는 /n/ 으로 시작한다.",
+      "translation": "남자: 공책\n남자: 이름\n남자: 거울\n남자: 밤",
+      "testPageImage": "/images/round7/page_49.png"
+    },
+    {
+      "number": 2,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "beach",
+        "star",
+        "sun",
+        "mountain"
+      ],
+      "answer": 4,
+      "script": "W: beach\nW: star\nW: sun\nW: mountain",
+      "explanation": "",
+      "translation": "여자: 해변\n여자: 별\n여자: 태양\n여자: 산",
+      "testPageImage": "/images/round7/page_49.png"
+    },
+    {
+      "number": 3,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Can I come in?",
+        "How many apples do you want?",
+        "What color is it?",
+        "Let’s go to the store."
+      ],
+      "answer": 1,
+      "script": "B: Can I come in?\nB: How many apples do you want?\nB: What color is it?\nB: Let’s go to the store.",
+      "explanation": "",
+      "translation": "소년: 들어가도 돼요?\n소년: 몇 개의 사과를 원해요?\n소년: 그것은 무슨 색깔이에요?\n소년: 가게에 가시죠.",
+      "testPageImage": "/images/round7/page_49.png"
+    },
+    {
+      "number": 4,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Do you have a ruler? G : Yes, I like it.",
+        "What time is it? G : It’s cold and windy.",
+        "Happy birthday. G : I’m so sorry.",
+        "Where is my jacket? G : It’s on the chair."
+      ],
+      "answer": 4,
+      "script": "B: Do you have a ruler? G : Yes, I like it.\nB: What time is it? G : It’s cold and windy.\nB: Happy birthday. G : I’m so sorry.\nB: Where is my jacket? G : It’s on the chair.",
+      "explanation": "",
+      "translation": "소년: 너는 자를 가지고 있니?\n소녀: 응, 나는 그것을 좋아해.\n소년: 몇 시야?\n소녀: 날이 춥고 바람이 불어.\n소년: 생일 축하해.\n소녀: 정말 미안해.\n소년: 내 재킷이 어디에 있니?\n소녀: 의자 위에 있어.",
+      "testPageImage": "/images/round7/page_49.png"
+    },
+    {
+      "number": 5,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3,
+      "script": "G: Tony, I have photos from Christmas.\nB: You look so happy! Oh, is this your cousin?\nG: No, that’s my brother.\nB: Really? He has black hair, but yours is blonde!\nG: Yes. He’s also very tall!",
+      "explanation": "여자아이의 남동생은 검 은색 머리에 키가 크다고 했다.",
+      "translation": "소녀: 토니, 내게 크리스마스 때 찍은 사진이 있어.\n소년: 네가 정말 행복해 보여! 오, 이 사람은 너의\n소녀: 아니, 저 애는 내 남동생이야.\n소년: 정말? 그는 검은색 머리인데 너는 금발이야!\n소녀: 응. 그는 또한 키가 매우 커!",
+      "testPageImage": "/images/round7/page_50.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 6,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "G: Summer is coming!\nB: Right. I am so excited!\nG: What will you do this summer?\nB: I will join a camping club.\nG: Oh, that will be fun.",
+      "explanation": "",
+      "translation": "소녀: 여름이 다가오고 있어!\n소년: 맞아. 나는 정말 신이 나!\n소녀: 이번 여름에 무엇을 할 건데?\n소년: 나는 캠핑 클럽에 가입할 거야.\n소녀: 오, 그거 재미있겠다.",
+      "testPageImage": "/images/round7/page_50.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 7,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "B: Hey, Yumi! What did you do last weekend?\nG: I visited my uncle in Jeju-do.\nB: Wow! What did you do there?\nG: We went to Hallasan Mountain! There were so many flowers there.",
+      "explanation": "여자아이는 한라산에 가 서 꽃을 봤다고 했다.",
+      "translation": "소년: 안녕, 유미야! 지난 주말에 너 뭐 했니?\n소녀: 나는 제주도의 삼촌댁을 방문했어.\n소년: 와! 너는 거기서 뭐 했어?\n소녀: 우리는 한라산에 갔어! 거기에는 정말 많은",
+      "testPageImage": "/images/round7/page_50.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 8,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "G: Do you like table tennis?\nB: Yes, I do. I love it!\nG: Let’s play table tennis today, then!\nB: Sorry, I can’t. I have a taekwondo class today.\nG: Oh, I see.",
+      "explanation": "",
+      "translation": "소녀: 너는 탁구를 좋아하니?\n소년: 응, 좋아해. 나는 그것을 정말 좋아해!\n소녀: 그러면 오늘 탁구를 치자!\n소년: 미안하지만 할 수 없어. 오늘 태권도 수업이\n소녀: 아, 알았어.",
+      "testPageImage": "/images/round7/page_50.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 9,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Are you happy now?",
+        "See you next time.",
+        "Cheer up. You can do it.",
+        "That’s sounds great."
+      ],
+      "answer": 3,
+      "script": "M: Are you happy now?\nM: See you next time.\nM: Cheer up. You can do it.\nM: That’s sounds great.",
+      "explanation": "",
+      "translation": "남자: 당신은 지금 행복해요?\n남자: 다음에 봐요.\n남자: 힘 내요. 당신은 할 수 있어요.\n남자: 그거 좋아요.",
+      "testPageImage": "/images/round7/page_51.png"
+    },
+    {
+      "number": 10,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "B: Wow, there are many old paintings here.\nG: Look at this painting, Henry!\nB: Oh! The tigers look alive.\nG: It’s an old painting, but the colors are so bright.\nB: Right. It’s beautiful!",
+      "explanation": "오래된 그림을 보면서 느 낌을 말할 수 있는 곳은 미술관이다.",
+      "translation": "소년: 와, 여기에 오래된 그림들이 많아.\n소녀: 이 그림을 봐, 헨리!\n소년: 오! 호랑이들이 살아 있는 것 같아.\n소녀: 이건 오래된 그림인데 색깔이 매우 선명해.\n소년: 맞아. 아름다워!",
+      "testPageImage": "/images/round7/page_51.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 11,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "B: Kate, how can I get to the park?\nG: You can get there by bus.\nB: Great! Where is the bus stop?\nG: It is next to the shopping mall.",
+      "explanation": "공원은 버스를 타고 갈 수 있다고 했다.",
+      "translation": "소년: 케이트, 공원에 어떻게 갈 수 있니?\n소녀: 너는 거기에 버스를 타고 갈 수 있어.\n소년: 좋아! 버스 정류장은 어디야?\n소녀: 쇼핑몰 옆에 있어.",
+      "testPageImage": "/images/round7/page_51.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 12,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "B: I like my uncle Louis. He works hard.\nG: What does he do?\nB: He is an animal doctor.\nG: Oh, he helps sick animals!",
+      "explanation": "",
+      "translation": "소년: 나는 나의 삼촌 루이스를 좋아해. 그분은\n소녀: 그분은 직업이 뭔데?\n소년: 수의사야.\n소녀: 오, 그분은 아픈 동물들을 도와주시는구나!",
+      "testPageImage": "/images/round7/page_51.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 13,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Cows are running in the field.",
+        "Birds are flying in the sky.",
+        "Horses are sleeping on the grass.",
+        "A dog is playing with a cat."
+      ],
+      "answer": 3,
+      "script": "W: Cows are running in the field.\nW: Birds are flying in the sky.\nW: Horses are sleeping on the grass.\nW: A dog is playing with a cat.",
+      "explanation": "",
+      "translation": "여자: 소들이 들판에서 뛰고 있다.\n여자: 새들이 하늘에서 날고 있다.\n여자: 말들이 풀밭에서 자고 있다.\n여자: 개가 고양이와 놀고 있다.",
+      "testPageImage": "/images/round7/page_52.png"
+    },
+    {
+      "number": 14,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "나는 11살이야.",
+        "나는 멕시코에서 왔어.",
+        "나도 학생이야."
+      ],
+      "answer": 2,
+      "script": "G: Hello! I’m Jane.\nB: Hi, Jane. I’m Dabin! Are you a new student?\nG: Yes. This is my first week here!\nB: Where are you from?\nG: ① I’m eleven years old. ② I’m from Mexico. ③ I’m a student, too. ④ I’m in the kitchen.",
+      "explanation": "어디에서 왔는지 묻고 있 으므로 나라나 도시를 말 해야 한다.",
+      "translation": "소녀: 안녕! 나는 제인이야.\n소년: 안녕, 제인. 나는 다빈이야! 너는 전학생이니?\n소녀: 응. 이번 주가 이 곳에서의 첫 주야!\n소년: 너는 어디서 왔니?\n소녀: ① 나는 11살이야.",
+      "testPageImage": "/images/round7/page_52.png"
+    },
+    {
+      "number": 15,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "G: Excuse, me. Where are the erasers?\nM: Here they are.\nG: How much is this one?\nM: ① It’s yours. ② It’s 12:30 ③ Three erasers, please. ④ It’s five hundred won.",
+      "explanation": "얼마인지 묻고 있으므로 가격을 말해야 한다.",
+      "translation": "소녀: 실례합니다. 지우개가 어디 있어요?\n남자: 여기 있어요.\n소녀: 이것은 얼마예요?\n남자: ① 그것은 당신의 것입니다.",
+      "testPageImage": "/images/round7/page_52.png",
+      "imageQuestion": true
+    }
+  ],
+  "dictation": {
+    "step1": [],
+    "step2": [],
+    "step3": []
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "round": 10,
+  "title": "10회 모의고사",
+  "totalQuestions": 15,
+  "vocabulary": [
+    {
+      "word": "doll",
+      "meaning": "인형"
+    },
+    {
+      "word": "zebra",
+      "meaning": "얼룩말"
+    },
+    {
+      "word": "cold",
+      "meaning": "추운; 감기"
+    },
+    {
+      "word": "stripes",
+      "meaning": "줄무늬"
+    },
+    {
+      "word": "trash",
+      "meaning": "쓰레기"
+    },
+    {
+      "word": "sport",
+      "meaning": "운동"
+    },
+    {
+      "word": "same",
+      "meaning": "같은"
+    },
+    {
+      "word": "live",
+      "meaning": "살다"
+    },
+    {
+      "word": "store",
+      "meaning": "가게, 상점"
+    },
+    {
+      "word": "worry",
+      "meaning": "걱정하다"
+    },
+    {
+      "word": "look like",
+      "meaning": "~처럼 보이다"
+    },
+    {
+      "word": "water",
+      "meaning": "물"
+    },
+    {
+      "word": "pick up",
+      "meaning": "줍다, 집어 올리다"
+    },
+    {
+      "word": "game",
+      "meaning": "게임"
+    },
+    {
+      "word": "zoo",
+      "meaning": "동물원"
+    },
+    {
+      "word": "visit",
+      "meaning": "방문하다"
+    },
+    {
+      "word": "walk",
+      "meaning": "산책시키다"
+    },
+    {
+      "word": "use",
+      "meaning": "사용하다"
+    },
+    {
+      "word": "welcome",
+      "meaning": "환영하다"
+    },
+    {
+      "word": "computer",
+      "meaning": "컴퓨터"
+    },
+    {
+      "word": "mine",
+      "meaning": "나의 것"
+    },
+    {
+      "word": "park",
+      "meaning": "공원"
+    },
+    {
+      "word": "cloudy",
+      "meaning": "흐린"
+    },
+    {
+      "word": "look at  ~을",
+      "meaning": "보다"
+    },
+    {
+      "word": "dinner",
+      "meaning": "저녁 식사"
+    },
+    {
+      "word": "get의",
+      "meaning": "과거형)"
+    },
+    {
+      "word": "birthday",
+      "meaning": "생일"
+    },
+    {
+      "word": "look like  ~을",
+      "meaning": "닮다"
+    },
+    {
+      "word": "food",
+      "meaning": "음식"
+    },
+    {
+      "word": "come",
+      "meaning": "오다"
+    },
+    {
+      "word": "will  ~할",
+      "meaning": "것이다"
+    },
+    {
+      "word": "tomorrow",
+      "meaning": "내일"
+    },
+    {
+      "word": "there",
+      "meaning": "거기에"
+    },
+    {
+      "word": "about  ~에",
+      "meaning": "대해"
+    },
+    {
+      "word": "wrong",
+      "meaning": "잘못된"
+    },
+    {
+      "word": "watch out  \n~을",
+      "meaning": "조심하다"
+    },
+    {
+      "word": "nice",
+      "meaning": "친절한, 좋은"
+    },
+    {
+      "word": "room",
+      "meaning": "방"
+    },
+    {
+      "word": "favorite",
+      "meaning": "좋아하는"
+    },
+    {
+      "word": "violin",
+      "meaning": "바이올린"
+    },
+    {
+      "word": "rain",
+      "meaning": "비가 오다"
+    },
+    {
+      "word": "a lot",
+      "meaning": "많이"
+    },
+    {
+      "word": "animal",
+      "meaning": "동물"
+    },
+    {
+      "word": "bear",
+      "meaning": "곰"
+    },
+    {
+      "word": "lose의",
+      "meaning": "과거형)"
+    },
+    {
+      "word": "stripe",
+      "meaning": "줄무늬"
+    },
+    {
+      "word": "sure",
+      "meaning": "확실한"
+    },
+    {
+      "word": "tired",
+      "meaning": "피곤한"
+    },
+    {
+      "word": "run",
+      "meaning": "뛰다"
+    },
+    {
+      "word": "went는 go의",
+      "meaning": "과거형)"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "flag",
+        "farmer",
+        "party",
+        "friend"
+      ],
+      "answer": 3,
+      "script": "M: flag\nM: farmer\nM: party\nM: friend",
+      "explanation": "party는 /p/로 시작하 고, 나머지 모두는 /f/로 시작한다.",
+      "translation": "남자: 깃발, 기\n남자: 농부\n남자: 파티\n남자: 친구",
+      "testPageImage": "/images/round10/page_67.png"
+    },
+    {
+      "number": 2,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "doll",
+        "glove",
+        "candy",
+        "flower"
+      ],
+      "answer": 1,
+      "script": "W: doll\nW: glove\nW: candy\nW: flower",
+      "explanation": "",
+      "translation": "여자: 인형\n여자: 장갑\n여자: 사탕\n여자: 꽃",
+      "testPageImage": "/images/round10/page_67.png"
+    },
+    {
+      "number": 3,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Look at the sky!",
+        "Birds are flying in the sky.",
+        "It’s cloudy and cold now.",
+        "You can use my cell phone."
+      ],
+      "answer": 1,
+      "script": "G: Look at the sky!\nG: Birds are flying in the sky.\nG: It’s cloudy and cold now.\nG: You can use my cell phone.",
+      "explanation": "",
+      "translation": "소녀: 하늘을 봐!\n소녀: 새들이 하늘에서 날고 있어.\n소녀: 지금 날이 흐리고 추워.\n소녀: 너는 내 휴대 전화를 써도 돼.",
+      "testPageImage": "/images/round10/page_67.png"
+    },
+    {
+      "number": 4,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "What day is it today? G : It’s time for dinner.",
+        "What does she do? G : She is watering the plants.",
+        "What color is it? G : It’s very big.",
+        "What time is it now? G : It’s twelve o’clock."
+      ],
+      "answer": 4,
+      "script": "B: What day is it today? G : It’s time for dinner.\nB: What does she do? G : She is watering the plants.\nB: What color is it? G : It’s very big.\nB: What time is it now? G : It’s twelve o’clock.",
+      "explanation": "",
+      "translation": "소년: 오늘은 무슨 요일이니?\n소녀: 저녁 먹을 시간이야.\n소년: 그녀는 직업이 뭐니?\n소녀: 그녀는 화초에 물을 주고 있어.\n소년: 그것은 무슨 색깔이니?\n소녀: 그것은 매우 커.\n소년: 지금 몇 시니?\n소녀: 12시야.",
+      "testPageImage": "/images/round10/page_67.png"
+    },
+    {
+      "number": 5,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "B: Hi, Jane. How are you?\nG: Hi, Minho. I’m happy.\nB: Why are you happy?\nG: I got a new computer for my birthday.\nB: Oh, that’s great!",
+      "explanation": "여자아이는 생일 선물을 받아서 행복해 하고 있다.",
+      "translation": "소년: 안녕, 제인. 기분이 어때?\n소녀: 안녕, 민호. 나는 행복해.\n소년: 너는 왜 행복해?\n소녀: 내 생일 선물로 새 컴퓨터를 받았어.\n소년: 오, 좋다!",
+      "testPageImage": "/images/round10/page_68.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 6,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: Who is this in the picture?\nB: That’s my dad.\nG: You really look like him.\nB: Right. We even like the same food and sports.",
+      "explanation": "",
+      "translation": "소녀: 사진 속의 이분은 누구니?\n소년: 우리 아빠야.\n소녀: 너는 아빠를 정말 닮았구나.\n소년: 맞아. 우리는 심지어 같은 음식과 운동을",
+      "testPageImage": "/images/round10/page_68.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 7,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "W: What are you doing, Tony?\nB: I’m playing a game.\nW: It’s time for dinner. Come here.\nB: Okay, Mom.",
+      "explanation": "",
+      "translation": "여자: 뭐하고 있니, 토니?\n소년: 게임을 하고 있어요.\n여자: 저녁 먹을 시간이야. 이리로 와.\n소년: 알았어요, 엄마.",
+      "testPageImage": "/images/round10/page_68.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 8,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: What will you do tomorrow?\nB: I will go to Busan!\nG: Wow! Why are you going there?\nB: My grandma lives there. I’m visiting her.\nG: That sounds great!",
+      "explanation": "남자아이는 할머니를 뵈 러 부산에 간다고 했다.",
+      "translation": "소녀: 너는 내일 뭐 할 거니?\n소년: 나는 부산에 갈 거야!\n소녀: 와! 거기에 왜 가는데?\n소년: 우리 할머니가 그곳에 사셔. 할머니를 뵈러 갈\n소녀: 좋겠다!",
+      "testPageImage": "/images/round10/page_68.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 9,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Don’t worry about that.",
+        "What’s wrong with you?",
+        "Watch out for the cars!",
+        "How nice!"
+      ],
+      "answer": 3,
+      "script": "M: Don’t worry about that.\nM: What’s wrong with you?\nM: Watch out for the cars!\nM: How nice!",
+      "explanation": "",
+      "translation": "남자: 그것에 대해 걱정하지 마세요.\n남자: 당신에게 무슨 일 있나요?\n남자: 자동차를 조심하세요!\n남자: 정말 친절하군요!",
+      "testPageImage": "/images/round10/page_69.png"
+    },
+    {
+      "number": 10,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: Welcome to my room!\nB: Wow, it looks nice! What’s this?\nG: It’s my favorite toy Mr. Rabbit.\nB: It’s very cute. What about this?\nG: That’s my violin.",
+      "explanation": "여자아이가 자신의 방을 남자아이에게 소개해주 는 상황이다.",
+      "translation": "소녀: 내 방에 온 것을 환영해!\n소년: 와, 좋아 보인다! 이것은 뭐니?\n소녀: 그것은 내가 좋아하는 장난감인 ‘미스터\n소년: 그거 정말 귀엽다. 이건 뭐야?\n소녀: 그것은 내 바이올린이야.",
+      "testPageImage": "/images/round10/page_69.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 11,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: How’s the weather now?\nB: It’s raining a lot.\nG: Really? Oh, no! I don’t have an umbrella.\nB: Let’s go to the store and get one.",
+      "explanation": "지금 비가 많이 내려서 우산을 사자고 했다.",
+      "translation": "소녀: 지금 날씨는 어때?\n소년: 비가 많이 내리고 있어.\n소녀: 정말? 오, 안 돼! 나는 우산이 없어.\n소년: 가게에 가서 하나 사자.",
+      "testPageImage": "/images/round10/page_69.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 12,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "G: Wow, the zoo has so many animals!\nB: Right. How many zebras are there?\nG: There are six zebras.\nB: What about bears?\nG: There are four bears.",
+      "explanation": "얼룩말이 6마리, 곰이 4 마리 있다고 했으므로 총 10마리이다.",
+      "translation": "소녀: 와, 동물원에 동물들이 정말 많네!\n소년: 맞아. 얼룩말이 몇 마리가 있니?\n소녀: 6마리의 얼룩말이 있어.\n소년: 곰은 어때?\n소녀: 4마리의 곰이 있어.",
+      "testPageImage": "/images/round10/page_69.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 13,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "There are five boys in the picture.",
+        "A boy is walking his dog.",
+        "Two boys are picking up the trash.",
+        "A boy is dancing to some music."
+      ],
+      "answer": 3,
+      "script": "W: There are five boys in the picture.\nW: A boy is walking his dog.\nW: Two boys are picking up the trash.\nW: A boy is dancing to some music.",
+      "explanation": "두 남자아이가 쓰레기를 줍고 있고, 한 남자아이 는 버스를 기다리고 있 고, 한 남자아이는 음악 을 들으며 걷는 그림이 다.",
+      "translation": "여자: 그림에 다섯 명의 남자아이들이 있다.\n여자: 한 남자아이는 자신의 개를 산책시킨다.\n여자: 두 남자아이는 쓰레기를 줍고 있다.\n여자: \u0007한 남자아이는 음악에 맞춰 춤을 추고",
+      "testPageImage": "/images/round10/page_70.png"
+    },
+    {
+      "number": 14,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "저는 확실하지 않아요.",
+        "그것은 좋지 않아요.",
+        "좋아요."
+      ],
+      "answer": 4,
+      "script": "M: Can you help me? I lost my bike.\nW: What color is it?\nM: It is black with white stripes.\nW: Oh! Is this your bike?\nM: ① I’m not sure. ② It’s not good. ③ That’s okay. ④ Yes, it is. It’s mine.",
+      "explanation": "남자의 자전거인지 묻고 있으므로 자신의 것인지 아닌지를 말해야 한다.",
+      "translation": "남자: 저를 도와줄래요? 제 자전거를 잃어버렸어요.\n여자: 무슨 색깔인가요?\n남자: 흰색 줄무늬가 있는 검정색이에요.\n여자: 오! 이게 당신의 자전거인가요?\n남자: ① 저는 확실하지 않아요.",
+      "testPageImage": "/images/round10/page_70.png"
+    },
+    {
+      "number": 15,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "나는 야구를 해.",
+        "정말 좋았어.",
+        "나는 공원에서 달리고 있어."
+      ],
+      "answer": 4,
+      "script": "B: Are you okay, Kate?\nG: No, I’m not. I’m very tired.\nB: What did you do yesterday?\nG: ① I play baseball. ② It was so great. ③ I am running at the park. ④ I went hiking on a mountain.\nB: I went hiking on a mountain . 삼촌 4 마시다 7 색깔 2 호랑이 5 열심히 6 8 저녁 식사",
+      "explanation": "어제 무엇을 했는지 묻고 있으므로 어제 한 일을 말해야 한다.",
+      "translation": "소년: 너 괜찮니, 케이트?\n소녀: 아니, 괜찮지 않아. 나는 정말 피곤해.\n소년: 너 어제 무엇을 했니?\n소녀: ① 나는 야구를 해.",
+      "testPageImage": "/images/round10/page_70.png"
+    }
+  ],
+  "dictation": {
+    "step1": [],
+    "step2": [],
+    "step3": []
+  }
+}

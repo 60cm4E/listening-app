@@ -1,0 +1,450 @@
+{
+  "round": 2,
+  "title": "2회 모의고사",
+  "totalQuestions": 15,
+  "vocabulary": [
+    {
+      "word": "firefighter",
+      "meaning": "소방관"
+    },
+    {
+      "word": "backpack",
+      "meaning": "배낭, 책가방"
+    },
+    {
+      "word": "blue jeans",
+      "meaning": "청바지"
+    },
+    {
+      "word": "sofa",
+      "meaning": "소파"
+    },
+    {
+      "word": "hamburger",
+      "meaning": "햄버거"
+    },
+    {
+      "word": "room",
+      "meaning": "방"
+    },
+    {
+      "word": "farmer",
+      "meaning": "농부"
+    },
+    {
+      "word": "neighbor",
+      "meaning": "이웃"
+    },
+    {
+      "word": "homework",
+      "meaning": "숙제"
+    },
+    {
+      "word": "full",
+      "meaning": "배부른"
+    },
+    {
+      "word": "use",
+      "meaning": "사용하다"
+    },
+    {
+      "word": "quiet",
+      "meaning": "조용한"
+    },
+    {
+      "word": "yours",
+      "meaning": "너의 것"
+    },
+    {
+      "word": "hot",
+      "meaning": "뜨거운"
+    },
+    {
+      "word": "mine",
+      "meaning": "나의 것"
+    },
+    {
+      "word": "clean",
+      "meaning": "청소하다"
+    },
+    {
+      "word": "busy",
+      "meaning": "바쁜"
+    },
+    {
+      "word": "woman",
+      "meaning": "여자"
+    },
+    {
+      "word": "people",
+      "meaning": "사람들"
+    },
+    {
+      "word": "find",
+      "meaning": "찾다"
+    },
+    {
+      "word": "lunch",
+      "meaning": "점심 식사"
+    },
+    {
+      "word": "look",
+      "meaning": "보다, 보이다"
+    },
+    {
+      "word": "know",
+      "meaning": "알다"
+    },
+    {
+      "word": "shirt",
+      "meaning": "셔츠"
+    },
+    {
+      "word": "school",
+      "meaning": "학교"
+    },
+    {
+      "word": "s ~ ~하자\nclean",
+      "meaning": "청소하다"
+    },
+    {
+      "word": "lesson",
+      "meaning": "수업, 교습"
+    },
+    {
+      "word": "too",
+      "meaning": "매우, 너무"
+    },
+    {
+      "word": "many",
+      "meaning": "많은"
+    },
+    {
+      "word": "next to  ~",
+      "meaning": "옆에"
+    },
+    {
+      "word": "sad",
+      "meaning": "슬픈"
+    },
+    {
+      "word": "be good at \n~을",
+      "meaning": "잘하다"
+    },
+    {
+      "word": "much",
+      "meaning": "많이"
+    },
+    {
+      "word": "one",
+      "meaning": "같은 종류의 것"
+    },
+    {
+      "word": "here",
+      "meaning": "여기"
+    },
+    {
+      "word": "snack",
+      "meaning": "음식, 간식"
+    },
+    {
+      "word": "from \n~에서",
+      "meaning": "온, ~ 출신인"
+    },
+    {
+      "word": "country",
+      "meaning": "나라"
+    },
+    {
+      "word": "India",
+      "meaning": "인도"
+    },
+    {
+      "word": "house",
+      "meaning": "집, 주택"
+    },
+    {
+      "word": "aunt",
+      "meaning": "고모, 이모, 외숙모"
+    },
+    {
+      "word": "baseball bat",
+      "meaning": "야구방망이"
+    },
+    {
+      "word": "in  ~",
+      "meaning": "안에"
+    },
+    {
+      "word": "bed",
+      "meaning": "침대"
+    },
+    {
+      "word": "computer",
+      "meaning": "컴퓨터"
+    },
+    {
+      "word": "salad",
+      "meaning": "샐러드"
+    },
+    {
+      "word": "delicious",
+      "meaning": "맛있는"
+    },
+    {
+      "word": "more",
+      "meaning": "더"
+    },
+    {
+      "word": "help oneself",
+      "meaning": "마음껏 먹다"
+    },
+    {
+      "word": "break의",
+      "meaning": "과거형)"
+    },
+    {
+      "word": "on ~",
+      "meaning": "위에"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "farmer",
+        "nurse",
+        "firefighter",
+        "child"
+      ],
+      "answer": 4,
+      "script": "M: farmer\nM: nurse\nM: firefighter\nM: child",
+      "explanation": "‘아이’는 직업을 나타내 는 말이 아니다.",
+      "translation": "남자: 농부\n남자: 간호사\n남자: 소방관\n남자: 아이",
+      "testPageImage": "/images/round2/page_15.png"
+    },
+    {
+      "number": 2,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Good for you.",
+        "I don’t know.",
+        "Your shirt is very nice!",
+        "See you tomorrow."
+      ],
+      "answer": 4,
+      "script": "W: Good for you.\nW: I don’t know.\nW: Your shirt is very nice!\nW: See you tomorrow.",
+      "explanation": "",
+      "translation": "여자: 당신에게 좋겠네요.\n여자: 저는 몰라요.\n여자: 당신의 셔츠는 정말 좋아요!\n여자: 내일 봐요.",
+      "testPageImage": "/images/round2/page_15.png"
+    },
+    {
+      "number": 3,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "It’s time for school.",
+        "Are you okay?",
+        "Be careful! It’s hot.",
+        "Be quiet, please. I can’t read."
+      ],
+      "answer": 3,
+      "script": "W: It’s time for school.\nW: Are you okay?\nW: Be careful! It’s hot.\nW: Be quiet, please. I can’t read.",
+      "explanation": "",
+      "translation": "여자: 학교 갈 시간이야.\n여자: 너 괜찮니?\n여자: 조심해! 뜨거워.\n여자: 조용히 해 줘. 책을 읽을 수가 없어.",
+      "testPageImage": "/images/round2/page_15.png"
+    },
+    {
+      "number": 4,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "What’s your name? G : My name is Ruby.",
+        "Let’s clean our room. G : Okay. Good idea!",
+        "What time is it? G : It’s nine o’clock.",
+        "Are you happy? G : No, I’m not."
+      ],
+      "answer": 2,
+      "script": "B: What’s your name? G : My name is Ruby.\nB: Let’s clean our room. G : Okay. Good idea!\nB: What time is it? G : It’s nine o’clock.\nB: Are you happy? G : No, I’m not.",
+      "explanation": "남자아이가 청소를 하자 고 제안하는 상황이다.",
+      "translation": "소년: 너의 이름은 뭐니?\n소녀: 내 이름은 루비야.\n소년: 우리의 방을 청소하자.\n소녀: 그래. 좋은 생각이야!\n소년: 몇 시니?\n소녀: 9시야.\n소년: 너는 행복하니?\n소녀: 아니, 그렇지 않아.",
+      "testPageImage": "/images/round2/page_15.png"
+    },
+    {
+      "number": 5,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Oh, I’m so sorry. G : Yes, it is.",
+        "Is this your pencil? G : I’m busy now.",
+        "How old are you? G : I’m eleven years old.",
+        "How are you? G : I have a piano lesson today."
+      ],
+      "answer": 3,
+      "script": "B: Oh, I’m so sorry. G : Yes, it is.\nB: Is this your pencil? G : I’m busy now.\nB: How old are you? G : I’m eleven years old.\nB: How are you? G : I have a piano lesson today.",
+      "explanation": "",
+      "translation": "소년: 오, 정말 미안해.\n소녀: 응, 그래.\n소년: 이게 너의 연필이니?\n소녀: 나는 지금 바빠.\n소년: 너는 몇 살이니?\n소녀: 나는 11살이야.\n소년: 너는 기분이 어때?\n소녀: 나는 오늘 피아노 수업이 있어.",
+      "testPageImage": "/images/round2/page_16.png"
+    },
+    {
+      "number": 6,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: Look! There’s my friend Bora.\nB: There’re too many people here. Where is she?\nG: She’s next to the tree.\nB: Hmm… I can’t see her. What is she wearing?\nG: She’s wearing a white shirt and blue jeans.",
+      "explanation": "보라는 나무 옆에 있으며 흰 셔츠에 청바지를 입고 있다.",
+      "translation": "소녀: 봐! 내 친구 보라가 있어.\n소년: 여기 너무 많은 사람들이 있어. 그 애가\n소녀: 나무 옆에 있어.\n소년: 음… 그 애를 볼 수가 없네. 무얼 입고 있니?\n소녀: 흰색 셔츠에 청바지를 입고 있어.",
+      "testPageImage": "/images/round2/page_16.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 7,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "G: Are you okay? You look sad.\nB: I can’t do my math homework. Can you help me?\nG: Of course! I am good at math.\nB: Great! Thank you so much, Kate!",
+      "explanation": "",
+      "translation": "소녀: 너 괜찮아? 슬퍼 보여.\n소년: 나는 수학 숙제를 할 수 없어. 나를 도와줄 수\n소녀: 물론이지! 나는 수학을 잘해.\n소년: 좋아! 정말 고마워, 케이트!",
+      "testPageImage": "/images/round2/page_16.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 8,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "G: I can’t find my backpack.\nB: Is the blue backpack yours?\nG: No. My backpack is green.\nB: Oh, the green one with the yellow stars?\nG: Yes, that’s mine. Thank you.",
+      "explanation": "",
+      "translation": "소녀: 내 책가방을 찾을 수가 없어.\n소년: 파란색 책가방이 네 것이니?\n소녀: 아니. 내 책가방은 초록색이야.\n소년: 아, 노란 별들이 있는 초록색 책가방이니?\n소녀: 응, 그게 내 거야. 고마워.",
+      "testPageImage": "/images/round2/page_16.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 9,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3,
+      "script": "B: Jane, it’s time for lunch!\nG: What do you want for lunch?\nB: I want a hamburger.\nG: I love hamburgers! Let’s go.",
+      "explanation": "",
+      "translation": "소년: 제인, 점심 먹을 시간이야!\n소녀: 너는 점심으로 무얼 먹고 싶어?\n소년: 나는 햄버거를 먹고 싶어.\n소녀: 나는 햄버거를 정말 좋아해! 가자.",
+      "testPageImage": "/images/round2/page_17.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 10,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "B: Hello! I am your new neighbor Tony.\nG: Nice to meet you. My name is Yumi.\nB: Nice to meet you, Yumi. Here are some snacks from my country.\nG: Oh, thank you! Where are you from, Tony?\nB: I’m from India.",
+      "explanation": "",
+      "translation": "소년: 안녕! 나는 너의 새로운 이웃인 토니야.\n소녀: 만나서 반가워. 내 이름은 유미야.\n소년: 만나서 반가워, 유미. 여기 우리 나라에서 온\n소녀: 오, 고마워! 너는 어디서 왔니, 토니?\n소년: 나는 인도에서 왔어.",
+      "testPageImage": "/images/round2/page_17.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 11,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "G: Wow, this photo looks great! Where is it?\nB: It is my grandma’s house.\nG: Who is this woman? Is this your mom?\nB: No, she’s my aunt.",
+      "explanation": "",
+      "translation": "소녀: 와, 이 사진은 멋져 보여! 여기는 어디니?\n소년: 우리 할머니 댁이야.\n소녀: 이 여자분은 누구야? 너의 엄마니?\n소년: 아니, 그분은 우리 고모야.",
+      "testPageImage": "/images/round2/page_17.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 12,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "There is a baseball bat in the room.",
+        "There is a bed in the room.",
+        "There are two computers in the room.",
+        "There is a sofa in the room."
+      ],
+      "answer": 2,
+      "script": "M: There is a baseball bat in the room.\nM: There is a bed in the room.\nM: There are two computers in the room.\nM: There is a sofa in the room.",
+      "explanation": "",
+      "translation": "남자: 방에 야구방망이가 하나 있다.\n남자: 방에 침대가 하나 있다.\n남자: 방에 두 대의 컴퓨터가 있다.\n남자: 방에 소파가 하나 있다.",
+      "testPageImage": "/images/round2/page_17.png"
+    },
+    {
+      "number": 13,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "B: I like this toy car.\nG: It looks great. How much is it?\nB: It’s six thousand won.\nG: Oh, it’s cheap. I want it, too.\nB: Let’s buy two.",
+      "explanation": "장난감 자동차를 살 수 있 는 곳은 장난감 가게이다.",
+      "translation": "소년: 나 이 장난감 자동차가 마음에 들어.\n소녀: 그거 멋져 보인다. 그건 얼마야?\n소년: 6천 원이야.\n소녀: 오, 싸네. 나도 사고 싶다.\n소년: 두 개 사자.",
+      "testPageImage": "/images/round2/page_18.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 14,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "천만에요.",
+        "네, 그것은 제 거예요.",
+        "아뇨. 배 불러요."
+      ],
+      "answer": 3,
+      "script": "B: This salad is delicious, Mom.\nW: Thank you. Do you want some more?\nB: ① You’re welcome. ② Yes, it’s mine. ③ No, thanks. I’m full. ④ Help yourself.",
+      "explanation": "샐러드를 더 먹을지 묻고 있으므로 먹을지 안 먹을 지 대답해야 한다.",
+      "translation": "소년: 이 샐러드 맛있어요, 엄마.\n여자: 고맙다. 좀 더 먹을래?\n소년: ① 천만에요.",
+      "testPageImage": "/images/round2/page_15.png"
+    },
+    {
+      "number": 15,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "나는 너를 좋아하지 않아.",
+        "그럼. 그렇게 해.",
+        "잠자러 갈 시간이야."
+      ],
+      "answer": 2,
+      "script": "B: I broke my pencil.\nG: I have a new pencil on my desk.\nB: Oh, can I use it?\nG: ① I don’t like you. ② Sure. Go ahead. ③ It’s time for bed. ④ Are you busy tomorrow?",
+      "explanation": "책상 위의 연필을 써도 되는지 묻고 있으므로 그렇다고 대답해야 한다.",
+      "translation": "소년: 내 연필을 부러뜨렸어.\n소녀: 내 책상 위에 새 연필이 있어.\n소년: 아, 내가 그것을 써도 돼?\n소녀: ① 나는 너를 좋아하지 않아.",
+      "testPageImage": "/images/round2/page_16.png"
+    }
+  ],
+  "dictation": {
+    "step1": [],
+    "step2": [],
+    "step3": []
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "round": 6,
+  "title": "6회 모의고사",
+  "totalQuestions": 15,
+  "vocabulary": [
+    {
+      "word": "snowman",
+      "meaning": "눈사람"
+    },
+    {
+      "word": "cookie",
+      "meaning": "쿠키"
+    },
+    {
+      "word": "tired",
+      "meaning": "피곤한"
+    },
+    {
+      "word": "shoes",
+      "meaning": "신발"
+    },
+    {
+      "word": "wake up",
+      "meaning": "일어나다"
+    },
+    {
+      "word": "Friday",
+      "meaning": "금요일"
+    },
+    {
+      "word": "straight",
+      "meaning": "곧장, 똑바로"
+    },
+    {
+      "word": "dodgeball",
+      "meaning": "피구"
+    },
+    {
+      "word": "garage",
+      "meaning": "차고"
+    },
+    {
+      "word": "swim",
+      "meaning": "수영하다"
+    },
+    {
+      "word": "easy",
+      "meaning": "쉬운"
+    },
+    {
+      "word": "wave",
+      "meaning": "흔들다"
+    },
+    {
+      "word": "wash the dishes",
+      "meaning": "설거지하다"
+    },
+    {
+      "word": "every",
+      "meaning": "매, ~마다"
+    },
+    {
+      "word": "find",
+      "meaning": "찾다"
+    },
+    {
+      "word": "move",
+      "meaning": "이사 가다"
+    },
+    {
+      "word": "city",
+      "meaning": "도시"
+    },
+    {
+      "word": "big",
+      "meaning": "큰"
+    },
+    {
+      "word": "water",
+      "meaning": "물"
+    },
+    {
+      "word": "weekend",
+      "meaning": "주말"
+    },
+    {
+      "word": "turn",
+      "meaning": "돌다"
+    },
+    {
+      "word": "meet",
+      "meaning": "만나다"
+    },
+    {
+      "word": "friend",
+      "meaning": "친구"
+    },
+    {
+      "word": "fix",
+      "meaning": "고치다, 수리하다"
+    },
+    {
+      "word": "Christmas",
+      "meaning": "크리스마스"
+    },
+    {
+      "word": "run",
+      "meaning": "뛰다"
+    },
+    {
+      "word": "swimming cap",
+      "meaning": "수영 모자"
+    },
+    {
+      "word": "hot",
+      "meaning": "더운"
+    },
+    {
+      "word": "hand",
+      "meaning": "손"
+    },
+    {
+      "word": "busy",
+      "meaning": "바쁜"
+    },
+    {
+      "word": "on weekends",
+      "meaning": "주말마다"
+    },
+    {
+      "word": "cool",
+      "meaning": "멋진"
+    },
+    {
+      "word": "very",
+      "meaning": "매우"
+    },
+    {
+      "word": "well",
+      "meaning": "잘"
+    },
+    {
+      "word": "go skiing",
+      "meaning": "스키 타러 가다"
+    },
+    {
+      "word": "blue",
+      "meaning": "파란색"
+    },
+    {
+      "word": "star",
+      "meaning": "별 모양"
+    },
+    {
+      "word": "look for  ~을",
+      "meaning": "찾다"
+    },
+    {
+      "word": "teapot",
+      "meaning": "차 주전자"
+    },
+    {
+      "word": "coffee",
+      "meaning": "커피"
+    },
+    {
+      "word": "cup",
+      "meaning": "잔, 컵"
+    },
+    {
+      "word": "take",
+      "meaning": "사다, 구입하다"
+    },
+    {
+      "word": "teach",
+      "meaning": "가르치다"
+    },
+    {
+      "word": "be good at  \n~을",
+      "meaning": "잘하다"
+    },
+    {
+      "word": "space center",
+      "meaning": "우주센터"
+    },
+    {
+      "word": "left",
+      "meaning": "왼쪽으로"
+    },
+    {
+      "word": "hospital",
+      "meaning": "병원"
+    },
+    {
+      "word": "sad",
+      "meaning": "슬픈"
+    },
+    {
+      "word": "another",
+      "meaning": "다른"
+    },
+    {
+      "word": "favorite",
+      "meaning": "좋아하는"
+    },
+    {
+      "word": "sandwich",
+      "meaning": "샌드위치"
+    },
+    {
+      "word": "spaghetti",
+      "meaning": "스파게티"
+    },
+    {
+      "word": "badminton",
+      "meaning": "배드민턴"
+    },
+    {
+      "word": "outside",
+      "meaning": "밖에서"
+    },
+    {
+      "word": "bad",
+      "meaning": "안된, 나쁜"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "badminton",
+        "dodgeball",
+        "soccer",
+        "snowman"
+      ],
+      "answer": 4,
+      "script": "M: badminton\nM: dodgeball\nM: soccer\nM: snowman",
+      "explanation": "",
+      "translation": "남자: 배드민턴\n남자: 피구\n남자: 축구\n남자: 눈사람",
+      "testPageImage": "/images/round6/page_41.png"
+    },
+    {
+      "number": 2,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "What do you want for Christmas?",
+        "How much is the pencil?",
+        "Hi, John. How are you doing?",
+        "Do you want some cookies?"
+      ],
+      "answer": 3,
+      "script": "W: What do you want for Christmas?\nW: How much is the pencil?\nW: Hi, John. How are you doing?\nW: Do you want some cookies?",
+      "explanation": "",
+      "translation": "여자: 당신은 크리스마스에 무엇을 원해요?\n여자: 그 연필은 얼마예요?\n여자: 안녕하세요, 존. 어떻게 지내요?\n여자: 당신은 쿠키를 원해요?",
+      "testPageImage": "/images/round6/page_41.png"
+    },
+    {
+      "number": 3,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "Don’t run here, please. G : Oh, I’m sorry.",
+        "Is this your swimming cap? G : Yes, it is. Thank you.",
+        "How’s the weather now? G : It’s hot and sunny.",
+        "Do you like swimming? G : No, I can’t swim."
+      ],
+      "answer": 1,
+      "script": "M: Don’t run here, please. G : Oh, I’m sorry.\nM: Is this your swimming cap? G : Yes, it is. Thank you.\nM: How’s the weather now? G : It’s hot and sunny.\nM: Do you like swimming? G : No, I can’t swim.",
+      "explanation": "",
+      "translation": "남자: 여기서 달리지 마세요.\n소녀: 오, 죄송합니다.\n남자: 이것이 너의 수영 모자니?\n소녀: 네, 그래요. 감사합니다.\n남자: 지금 날씨가 어때?\n소녀: 덥고 화창해요.\n남자: 너는 수영을 좋아하니?\n소녀: 아니요, 저는 수영할 줄 몰라요.",
+      "testPageImage": "/images/round6/page_41.png"
+    },
+    {
+      "number": 4,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "B: Look at this photo, Kate\nG: You look great! Where is your friend Henry?\nB: He is here. He wears glasses.\nG: Is he waving his hand?\nB: Yes. He is Henry.",
+      "explanation": "헨리는 안경을 쓰고 손을 흔들고 있다.",
+      "translation": "소년: 이 사진을 봐, 케이트!\n소녀: 너 멋져 보인다! 네 친구 헨리는 어디에 있니?\n소년: 그는 여기 있어. 그 애는 안경을 썼어.\n소녀: 그는 손을 흔들고 있니?\n소년: 응. 그 아이가 헨리야.",
+      "testPageImage": "/images/round6/page_41.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 5,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "G: Can we play soccer this weekend?\nB: Sorry, I’m busy on weekends.\nG: What do you do on weekends?\nB: I clean the park.\nG: That’s so cool!",
+      "explanation": "",
+      "translation": "소녀: 우리 이번 주말에 축구를 할 수 있니?\n소년: 미안해, 나는 주말에 바빠.\n소녀: 너는 주말마다 무엇을 하니?\n소년: 나는 공원을 청소해.\n소녀: 그거 정말 멋지다!",
+      "testPageImage": "/images/round6/page_42.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 6,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "B: Wow, you can ski very well!\nG: Thanks, Jack. I go skiing every winter.\nB: Can you skate well, too?\nG: No, I can’t. It’s not easy for me.",
+      "explanation": "여자아이는 스키를 탈 수 있지만 스케이트는 못 탄 다고 했다.",
+      "translation": "소년: 와, 너는 스키를 정말 잘 타는구나!\n소녀: 고마워, 잭. 나는 겨울마다 스키 타러 가.\n소년: 너는 스케이트도 잘 탈 수 있니?\n소녀: 아니, 못 타. 그건 내게 쉽지 않아.",
+      "testPageImage": "/images/round6/page_42.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 7,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 1,
+      "script": "B: Can you help me? I can’t find my shoes.\nG: Of course! What color are they?\nB: They are blue.\nG: Are these your shoes?\nB: No. Mine have big stars on them.",
+      "explanation": "여자아이의 신발은 파란 바탕에 큰 별 모양이 있다.",
+      "translation": "소년: 나를 도와줄 수 있니? 내 신발을 찾을 수 없어.\n소녀: 물론이지! 그것들은 무슨 색이니?\n소년: 파란색이야.\n소녀: 이것들이 너의 신발이니?\n소년: 아니. 내 것은 큰 별 모양이 있어.",
+      "testPageImage": "/images/round6/page_42.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 8,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "B: Excuse me, I’m looking for a gift for my mom.\nW: How about this teapot?\nB: It looks good, but my mom likes coffee.\nW: Oh, how about this coffee cup?\nB: That looks great! I’ll take it.",
+      "explanation": "",
+      "translation": "소년: 실례합니다, 저는 엄마를 위한 선물을 찾고\n여자: 이 차 주전자는 어때요?\n소년: 좋아 보이지만 엄마는 커피를 좋아하세요.\n여자: 오, 이 커피잔은 어때요?\n소년: 좋아 보여요! 그것을 살게요.",
+      "testPageImage": "/images/round6/page_42.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 9,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3,
+      "script": "B: Hi! Nice to meet you. I’m Henry.\nG: It’s nice to meet you, too. I’m Nancy.\nB: I’m nine years old. How about you?\nG: I’m ten.",
+      "explanation": "",
+      "translation": "소년: 안녕! 만나서 반가워. 나는 헨리야.\n소녀: 나도 만나서 반가워. 나는 낸시야.\n소년: 나는 9살이야. 너는?\n소녀: 나는 10살이야.",
+      "testPageImage": "/images/round6/page_43.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 10,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2,
+      "script": "M: Oh, who is she?\nG: She’s Ms. Brown, my new teacher!\nM: What does she teach?\nG: She teaches science. She’s very good at science.",
+      "explanation": "두 사람은 여자아이의 새 로운 선생님에 대해 말하 고 있다.",
+      "translation": "남자: 아, 그녀는 누구니?\n소녀: 그분은 제 새로운 선생님인 브라운\n남자: 그분은 무슨 과목을 가르치시니?\n소녀: 과학을 가르쳐요. 과학을 정말 잘하세요.",
+      "testPageImage": "/images/round6/page_43.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 11,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3,
+      "script": "M: Excuse me. Where is the space center?\nW: Go straight and turn left.\nM: Go straight and turn left?\nW: Yes. It is next to the hospital.\nM: Thank you so much!",
+      "explanation": "",
+      "translation": "남자: 실례합니다. 우주센터가 어디에 있나요?\n여자: 곧장 가서 왼쪽으로 도세요.\n남자: 곧장 가서 왼쪽으로 돌라고요?\n여자: 네. 그것은 병원 옆에 있어요.\n남자: 정말 고맙습니다!",
+      "testPageImage": "/images/round6/page_43.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 12,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4,
+      "script": "B: It’s Friday! Are you happy, Kate?\nG: No, I’m not. I’m sad.\nB: Why are you sad?\nG: My friend is moving to another city.\nB: Oh, no! I’m sorry.",
+      "explanation": "친구가 다른 도시로 이사 를 가서 슬프다고 했다.",
+      "translation": "소년: 금요일이다! 너는 행복하니, 케이트?\n소녀: 아니. 나는 슬퍼.\n소년: 왜 슬퍼?\n소녀: 내 친구가 다른 도시로 이사를 가거든.\n소년: 오, 이런! 안됐다.",
+      "testPageImage": "/images/round6/page_43.png",
+      "imageQuestion": true
+    },
+    {
+      "number": 13,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "그는 샌드위치를 좋아해.",
+        "나는 스파게티를 좋아해.",
+        "나는 물을 좀 원해."
+      ],
+      "answer": 2,
+      "script": "G: What is your favorite food, Tony?\nB: ① He likes sandwiches. ② I like spaghetti. ③ I want some water. ④ I’m so hungry now.",
+      "explanation": "네가 좋아하는 음식이 무 엇인지 묻고 있으므로 내 가 좋아하는 음식을 말해 야 한다.",
+      "translation": "소녀: 네가 좋아하는 음식은 뭐니, 토니?\n소년: ① 그는 샌드위치를 좋아해.",
+      "testPageImage": "/images/round6/page_44.png"
+    },
+    {
+      "number": 14,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "그는 자동차를 고치고 있어.",
+        "그는 방을 청소할 거야.",
+        "그는 7시에 일어나."
+      ],
+      "answer": 1,
+      "script": "B: Mom, where is Dad?\nW: He’s in the garage.\nB: What is he doing?\nW: ① He’s fixing the car. ② He’ll clean the room. ③ He wakes up at seven. ④ I’m washing the dishes.",
+      "explanation": "아빠가 지금 무엇을 하고 있는지 묻고 있으므로 아 빠가 하고 있는 일을 말 해야 한다.",
+      "translation": "소년: 엄마, 아빠 어디에 계세요?\n여자: 차고에 계셔.\n소년: 아빠는 뭐하고 계세요?\n여자: ① 그는 자동차를 고치고 있어.",
+      "testPageImage": "/images/round6/page_44.png"
+    },
+    {
+      "number": 15,
+      "instruction": "잘 듣고, 알맞은 것을 고르세요.",
+      "choices": [
+        "어휘",
+        "미안하지만, 안 돼. 나는 피곤해.",
+        "오, 그것 참 안됐다.",
+        "배드민턴을 치자고? 알았어."
+      ],
+      "answer": 2,
+      "script": "G: Look, Jack! It’s very sunny now.\nB: Wow, you’re right. Let’s play badminton outside.\nG: ① Sorry, I can’t. I’m tired. ② Oh, that’s too bad. ③ Play badminton? Okay. ④ Sounds great. Let’s go!\nB: I like spaghetti . s k y p i g t e n t n p a r t e n i s h e a v y w e a h e k r h b e l p i k e 자전거 t 본책 44~45쪽 쉬어가기 정답 및 해설 29",
+      "explanation": "배드민턴을 치자는 제안 에 대해 ‘그것 참 안됐다.’ 는 말은 어색하다.",
+      "translation": "소녀: 봐, 잭! 지금 날이 아주 화창해.\n소년: 와, 네 말이 맞네. 밖에서 배드민턴 치자.\n소녀: ① 미안하지만, 안 돼. 나는 피곤해.",
+      "testPageImage": "/images/round6/page_44.png"
+    }
+  ],
+  "dictation": {
+    "step1": [],
+    "step2": [],
+    "step3": []
+  }
+}
