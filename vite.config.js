@@ -90,7 +90,7 @@ function audioMiddlewarePlugin() {
 }
 
 export default defineConfig({
-  base: '/listening-app/',
+  base: process.env.GITHUB_ACTIONS ? '/listening-app/' : '/',
   plugins: [audioMiddlewarePlugin()],
   server: {
     port: 5173,
