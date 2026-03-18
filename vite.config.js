@@ -90,6 +90,7 @@ function audioMiddlewarePlugin() {
 }
 
 export default defineConfig({
+  base: '/listening-app/',
   plugins: [audioMiddlewarePlugin()],
   server: {
     port: 5173,
