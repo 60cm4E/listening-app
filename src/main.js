@@ -45,6 +45,13 @@ function setBreadcrumb(items) {
 
 async function navigate() {
   const { path, params } = parseRoute();
+
+  // Clean up any global keyboard handlers from previous page
+  if (window._homeKeyHandler) {
+    document.removeEventListener('keydown', window._homeKeyHandler);
+    window._homeKeyHandler = null;
+  }
+
   main.innerHTML = '';
   main.style.animation = 'none';
   main.offsetHeight; // trigger reflow

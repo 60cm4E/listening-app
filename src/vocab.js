@@ -136,6 +136,12 @@ export function renderVocab(container, round, data) {
             <button class="btn btn-success btn-lg btn-full" id="btn-vocab-complete">✅ 어휘 학습 완료!</button>
           </div>
         ` : ''}
+        <div class="shortcut-hints">
+          <span class="shortcut-hint"><kbd>←</kbd><kbd>→</kbd> 이전/다음</span>
+          <span class="shortcut-hint"><kbd>Space</kbd> 뒤집기</span>
+          <span class="shortcut-hint"><kbd>S</kbd> 발음</span>
+          <span class="shortcut-hint"><kbd>R</kbd> 섞기</span>
+        </div>
       </div>
     `;
 
@@ -193,6 +199,8 @@ export function renderVocab(container, round, data) {
       store.saveVocabComplete(round);
       window.location.hash = `#/round/${round}`;
     });
+
+    attachKeyboard('flashcard');
   }
 
   function renderQuizMode() {
@@ -311,6 +319,41 @@ export function renderVocab(container, round, data) {
       isFlipped = false;
       render();
     });
+
+    attachKeyboard('quiz');
+  }
+
+  let keyHandler = null;
+  function attachKeyboard(currentMode) {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+      if (currentMode === 'flashcard') {
+        if (e.key === 'ArrowLeft') { e.preventDefault(); document.getElementById('btn-prev')?.click(); }
+        if (e.key === 'ArrowRight') { e.preventDefault(); document.getElementById('btn-next')?.click(); }
+        if (e.key === ' ' || e.code === 'Space') {
+          e.preventDefault();
+          isFlipped = !isFlipped;
+          const card = document.getElementById('flashcard');
+          if (card) card.classList.toggle('flipped');
+        }
+        if (e.key === 's' || e.key === 'S') {
+          e.preventDefault();
+          document.getElementById('speak-front')?.click();
+          document.getElementById('speak-back')?.click();
+        }
+        if (e.key === 'r' || e.key === 'R') { e.preventDefault(); document.getElementById('btn-shuffle')?.click(); }
+      }
+
+      if (currentMode === 'quiz') {
+        if (['1','2','3','4'].includes(e.key)) {
+          e.preventDefault();
+          document.getElementById(`quiz-choice-${parseInt(e.key) - 1}`)?.click();
+        }
+      }
+    };
+    document.addEventListener('keydown', keyHandler);
   }
 
   render();

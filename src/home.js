@@ -51,7 +51,29 @@ export function renderHome(container) {
     </div>
   `;
 
+  html += `
+    <div class="shortcut-hints">
+      <span class="shortcut-hint"><kbd>1</kbd>~<kbd>9</kbd> 회차 선택</span>
+      <span class="shortcut-hint"><kbd>0</kbd> 10회</span>
+    </div>
+  `;
+
   container.innerHTML = html;
+
+  // Keyboard shortcuts
+  if (window._homeKeyHandler) document.removeEventListener('keydown', window._homeKeyHandler);
+  window._homeKeyHandler = (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (['1','2','3','4','5','6','7','8','9'].includes(e.key)) {
+      e.preventDefault();
+      window.location.hash = `#/round/${e.key}`;
+    }
+    if (e.key === '0') {
+      e.preventDefault();
+      window.location.hash = `#/round/10`;
+    }
+  };
+  document.addEventListener('keydown', window._homeKeyHandler);
 }
 
 export function renderRoundDetail(container, round) {
@@ -107,5 +129,22 @@ export function renderRoundDetail(container, round) {
     <div class="mt-24 text-center">
       <a href="#/" class="btn btn-secondary btn-sm">← 홈으로</a>
     </div>
+    <div class="shortcut-hints">
+      <span class="shortcut-hint"><kbd>1</kbd> 어휘</span>
+      <span class="shortcut-hint"><kbd>2</kbd> 듣기</span>
+      <span class="shortcut-hint"><kbd>3</kbd> 받아쓰기</span>
+      <span class="shortcut-hint"><kbd>4</kbd> 결과</span>
+      <span class="shortcut-hint"><kbd>Esc</kbd> 홈</span>
+    </div>
   `;
+
+  // Keyboard shortcuts
+  if (window._homeKeyHandler) document.removeEventListener('keydown', window._homeKeyHandler);
+  window._homeKeyHandler = (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    const stageMap = { '1': `#/vocab/${round}`, '2': `#/test/${round}`, '3': `#/dictation/${round}`, '4': `#/results/${round}` };
+    if (stageMap[e.key]) { e.preventDefault(); window.location.hash = stageMap[e.key]; }
+    if (e.key === 'Escape') { e.preventDefault(); window.location.hash = '#/'; }
+  };
+  document.addEventListener('keydown', window._homeKeyHandler);
 }

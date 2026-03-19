@@ -183,10 +183,17 @@ export function renderTest(container, round, data) {
             <button class="btn btn-primary" id="btn-next-q" ${currentQ === totalQ - 1 ? 'disabled' : ''}>다음 →</button>
           `}
         </div>
+        <div class="shortcut-hints">
+          <span class="shortcut-hint"><kbd>1</kbd>~<kbd>4</kbd> 답 선택</span>
+          <span class="shortcut-hint"><kbd>Space</kbd> 재생</span>
+          <span class="shortcut-hint"><kbd>←</kbd><kbd>→</kbd> 이전/다음</span>
+          <span class="shortcut-hint"><kbd>Enter</kbd> 결과 보기</span>
+        </div>
       </div>
     `;
 
     attachEvents(q, qNum, canPlay);
+    attachKeyboard(q, qNum, canPlay);
   }
 
   function renderFeedback(q, isCorrect) {
@@ -284,6 +291,43 @@ export function renderTest(container, round, data) {
 
   function stopAudio() {
     stopTTS();
+  }
+
+  let keyHandler = null;
+  function attachKeyboard(q, qNum, canPlay) {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = (e) => {
+      // Don't trigger shortcuts when typing in an input
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+      // 1-4: select answer
+      if (['1','2','3','4'].includes(e.key)) {
+        e.preventDefault();
+        const choiceBtn = document.getElementById(`choice-${e.key}`);
+        if (choiceBtn && !choiceBtn.classList.contains('disabled')) choiceBtn.click();
+      }
+      // Space: play audio
+      if (e.key === ' ' || e.code === 'Space') {
+        e.preventDefault();
+        document.getElementById('btn-play')?.click();
+      }
+      // ArrowLeft: previous
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        document.getElementById('btn-prev-q')?.click();
+      }
+      // ArrowRight: next
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        document.getElementById('btn-next-q')?.click();
+      }
+      // Enter: finish
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        document.getElementById('btn-finish')?.click();
+      }
+    };
+    document.addEventListener('keydown', keyHandler);
   }
 
   render();

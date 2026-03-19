@@ -120,10 +120,17 @@ export function renderDictation(container, round, data) {
             <button class="btn btn-primary" id="btn-next-s" ${currentSentence === stepData.length - 1 ? 'disabled' : ''}>다음 →</button>
           `}
         </div>
+        <div class="shortcut-hints">
+          <span class="shortcut-hint"><kbd>1</kbd>~<kbd>3</kbd> Step 선택</span>
+          <span class="shortcut-hint"><kbd>Space</kbd> 재생</span>
+          <span class="shortcut-hint"><kbd>←</kbd><kbd>→</kbd> 이전/다음</span>
+          <span class="shortcut-hint"><kbd>Enter</kbd> 확인</span>
+        </div>
       </div>
     `;
 
     attachEvents(stepData, item, key);
+    attachKeyboard(stepData);
   }
 
   function highlightBlanks(sentence) {
@@ -243,6 +250,49 @@ export function renderDictation(container, round, data) {
       currentAudio.currentTime = 0;
       currentAudio = null;
     }
+  }
+
+  let keyHandler = null;
+  function attachKeyboard(stepData) {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = (e) => {
+      const input = document.getElementById('dict-answer-input');
+      const isFocusedOnInput = document.activeElement === input;
+
+      // Enter: check answer (works even when input focused)
+      if (e.key === 'Enter' && isFocusedOnInput) {
+        const checkBtn = document.getElementById('btn-check');
+        const finishBtn = document.getElementById('btn-dict-finish');
+        if (checkBtn) { e.preventDefault(); checkBtn.click(); }
+        else if (finishBtn) { e.preventDefault(); finishBtn.click(); }
+        return;
+      }
+
+      // Don't handle other shortcuts when typing
+      if (isFocusedOnInput) return;
+
+      // 1-3: step select
+      if (['1','2','3'].includes(e.key)) {
+        e.preventDefault();
+        document.getElementById(`step-btn-${e.key}`)?.click();
+      }
+      // Space: play audio
+      if (e.key === ' ' || e.code === 'Space') {
+        e.preventDefault();
+        document.getElementById('btn-play-dict')?.click();
+      }
+      // ArrowLeft: previous
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        document.getElementById('btn-prev-s')?.click();
+      }
+      // ArrowRight: next
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        document.getElementById('btn-next-s')?.click();
+      }
+    };
+    document.addEventListener('keydown', keyHandler);
   }
 
   render();
