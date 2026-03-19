@@ -213,8 +213,7 @@
       "answer": 1,
       "script": "M: kitchen\nM: glove\nM: guitar\nM: grape",
       "explanation": "kitchen은 첫소리가 /k/이고, 나머지 모두는 첫소리가 /g/이다.",
-      "translation": "남자: 부엌\n남자: 장갑\n남자: 기타\n남자: 포도",
-      "testPageImage": "/images/round4/page_29.png"
+      "translation": "남자: 부엌\n남자: 장갑\n남자: 기타\n남자: 포도"
     },
     {
       "number": 2,
@@ -228,8 +227,7 @@
       "answer": 3,
       "script": "W: doctor\nW: chef\nW: firefighter\nW: teacher",
       "explanation": "",
-      "translation": "여자: 의사\n여자: 요리사\n여자: 소방관\n여자: 교사, 선생님",
-      "testPageImage": "/images/round4/page_29.png"
+      "translation": "여자: 의사\n여자: 요리사\n여자: 소방관\n여자: 교사, 선생님"
     },
     {
       "number": 3,
@@ -243,8 +241,7 @@
       "answer": 4,
       "script": "G: Look at the sky.\nG: You are so kind.\nG: Oh, that’s too bad.\nG: This is very exciting!",
       "explanation": "",
-      "translation": "소녀: 하늘을 봐.\n소녀: 너는 정말 친절해.\n소녀: 오, 그것 참 안됐다.\n소녀: 이거 정말 신난다!",
-      "testPageImage": "/images/round4/page_29.png"
+      "translation": "소녀: 하늘을 봐.\n소녀: 너는 정말 친절해.\n소녀: 오, 그것 참 안됐다.\n소녀: 이거 정말 신난다!"
     },
     {
       "number": 4,
@@ -258,8 +255,7 @@
       "answer": 3,
       "script": "B: Do you have scissors? G : Yes, I do.\nB: How old are you? G : I’m eleven years old.\nB: I’m Jaeha. What’s your name? G : Her name is Sally.\nB: Is this your umbrella? G : No, it isn’t. My umbrella is red.",
       "explanation": "너의 이름을 물었는데 그 녀의 이름을 말하는 것은 어색하다.",
-      "translation": "소년: 너는 가위를 갖고 있니?\n소녀: 응, 있어.\n소년: 너는 몇 살이니?\n소녀: 11살이야.\n소년: 나는 재하야. 너의 이름은 뭐니?\n소녀: 그녀의 이름은 샐리야.\n소년: 이것은 너의 우산이니?\n소녀: 아니. 내 우산은 빨간색이야.",
-      "testPageImage": "/images/round4/page_29.png"
+      "translation": "소년: 너는 가위를 갖고 있니?\n소녀: 응, 있어.\n소년: 너는 몇 살이니?\n소녀: 11살이야.\n소년: 나는 재하야. 너의 이름은 뭐니?\n소녀: 그녀의 이름은 샐리야.\n소년: 이것은 너의 우산이니?\n소녀: 아니. 내 우산은 빨간색이야."
     },
     {
       "number": 5,
@@ -274,8 +270,8 @@
       "script": "G: Oh, we have math class now!\nB: Are you happy about that, Bora?\nG: No, I’m not. I’m sad.\nB: Why?\nG: We have a test today!",
       "explanation": "보라는 수학 시험이 있어 서 슬프다고 했다.",
       "translation": "소녀: 오, 우리는 지금 수학 수업 시간이야!\n소년: 보라야, 넌 그것이 기쁘니?\n소녀: 아니. 나는 슬퍼.\n소년: 왜?\n소녀: 우리는 오늘 시험이 있어!",
-      "testPageImage": "/images/round4/page_30.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q5.png"
     },
     {
       "number": 6,
@@ -290,8 +286,8 @@
       "script": "G: Who is she?\nB: She is a new student in my class.\nG: Oh, where is she from?\nB: She is from France.\nG: Let’s talk to her!",
       "explanation": "두 사람은 프랑스에서 전 학 온 학생에 대해 이야기 하고 있다.",
       "translation": "소녀: 그녀는 누구니?\n소년: 그녀는 우리 반 전학생이야.\n소녀: 오, 그녀는 어디서 왔니?\n소년: 그녀는 프랑스에서 왔어.\n소녀: 그녀와 얘기해보자!",
-      "testPageImage": "/images/round4/page_30.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q6.png"
     },
     {
       "number": 7,
@@ -306,8 +302,8 @@
       "script": "W: What are you doing, Jack?\nB: I’m making a kite!\nW: Wow, it looks very nice.\nB: I want to fly it in the park.\nW: That’s a great idea!",
       "explanation": "",
       "translation": "여자: 너 뭐하고 있니, 잭?\n소년: 연을 만들고 있어요!\n여자: 와, 그거 정말 좋아 보인다.\n소년: 저는 공원에서 그것을 날리고 싶어요.\n여자: 그거 좋은 생각이야!",
-      "testPageImage": "/images/round4/page_30.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q7.png"
     },
     {
       "number": 8,
@@ -321,8 +317,7 @@
       "answer": 4,
       "script": "W: How are you today?\nW: What color is it?\nW: Do you like winter?\nW: How’s the weather?",
       "explanation": "",
-      "translation": "여자: 오늘 기분이 어때요?\n여자: 그것은 무슨 색이에요?\n여자: 당신은 겨울을 좋아하나요?\n여자: 날씨가 어때요?",
-      "testPageImage": "/images/round4/page_30.png"
+      "translation": "여자: 오늘 기분이 어때요?\n여자: 그것은 무슨 색이에요?\n여자: 당신은 겨울을 좋아하나요?\n여자: 날씨가 어때요?"
     },
     {
       "number": 9,
@@ -337,8 +332,8 @@
       "script": "M: Oh, our food is here.\nW: The pasta looks great.\nM: Let’s eat!\nW: Yum! It’s delicious.\nM: Yes, it sure is!",
       "explanation": "두 사람은 파스타가 맛있 다고 하고 있다.",
       "translation": "남자: 오, 우리 음식이 왔어.\n여자: 파스타가 맛있어 보인다.\n남자: 먹자!\n여자: 냠냠! 맛있어.\n남자: 응, 정말 그래!",
-      "testPageImage": "/images/round4/page_31.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q9.png"
     },
     {
       "number": 10,
@@ -353,8 +348,8 @@
       "script": "B: Let’s go swimming this afternoon.\nG: Great idea. Where shall we meet?\nB: Hmm... Let’s meet at the bus stop.\nG: Good. See you there!",
       "explanation": "",
       "translation": "소년: 오늘 오후에 수영하러 가자.\n소녀: 좋아. 어디에서 만날까?\n소년: 음… 버스 정류장에서 보자.\n소녀: 좋아. 거기서 보자!",
-      "testPageImage": "/images/round4/page_31.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q10.png"
     },
     {
       "number": 11,
@@ -369,8 +364,8 @@
       "script": "B: I’m so hungry. What time is it now?\nG: It’s eleven thirty. It’s time for class!\nB: What class do we have?\nG: We have art class now.",
       "explanation": "",
       "translation": "소년: 나 너무 배고파. 지금 몇 시니?\n소녀: 11시 30분이야. 수업 시간이다!\n소년: 우리는 무슨 수업이 있니?\n소녀: 지금 미술 수업이 있어.",
-      "testPageImage": "/images/round4/page_31.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q11.png"
     },
     {
       "number": 12,
@@ -385,8 +380,8 @@
       "script": "B: I’m in the reading club. How about you, Bora?\nG: I’m not in a club now.\nB: How about the movie club? You like movies.\nG: That sounds great! I’ll join that club.",
       "explanation": "여자아이는 남자아이의 제안대로 영화 동아리에 가입하겠다고 했다.",
       "translation": "소년: 나는 독서 동아리에 들어 있어. 보라야, 너는\n소녀: 나는 지금 동아리에 들어 있지 않아.\n소년: 영화 동아리는 어때? 너는 영화를 좋아하잖아.\n소녀: 그거 좋다! 그 동아리에 가입할 거야.",
-      "testPageImage": "/images/round4/page_31.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round4/q12.png"
     },
     {
       "number": 13,
@@ -400,8 +395,7 @@
       "answer": 2,
       "script": "M: There is a dog on the farm.\nM: There are three pigs on the farm.\nM: There are five pigs on the farm.\nM: There are two cows on the farm.",
       "explanation": "",
-      "translation": "남자: 농장에 개가 한 마리 있다.\n남자: 농장에 돼지가 세 마리 있다.\n남자: 농장에 돼지가 다섯 마리 있다.\n남자: 농장에 소가 두 마리 있다.",
-      "testPageImage": "/images/round4/page_32.png"
+      "translation": "남자: 농장에 개가 한 마리 있다.\n남자: 농장에 돼지가 세 마리 있다.\n남자: 농장에 돼지가 다섯 마리 있다.\n남자: 농장에 소가 두 마리 있다."
     },
     {
       "number": 14,
@@ -415,8 +409,7 @@
       "answer": 2,
       "script": "G: Nice to meet you.\nB: ① Sounds good. ② Nice to meet you, too. ③ Goodbye. ④ Wait a second, please.",
       "explanation": "",
-      "translation": "소녀: 만나서 반가워.\n소년: ① 좋은 것 같아.",
-      "testPageImage": "/images/round4/page_32.png"
+      "translation": "소녀: 만나서 반가워.\n소년: ① 좋은 것 같아."
     },
     {
       "number": 15,
@@ -430,8 +423,7 @@
       "answer": 4,
       "script": "B: It’s time for gym! Are you ready?\nG: No, I’m not. Where is my tennis racket?\nB: ① It’s a nice racket. ② I have a racket, too. ③ Let’s go outside! ④ It’s under your desk.",
       "explanation": "테니스 라켓이 어디 있는 지 묻고 있으므로 장소를 말해야 한다.",
-      "translation": "소년: 체육관에 갈 시간이다! 준비 됐어?\n소녀: 아니, 안 됐어. 내 테니스 라켓이 어디 있지?\n소년: ① 그것은 좋은 라켓이야.",
-      "testPageImage": "/images/round4/page_32.png"
+      "translation": "소년: 체육관에 갈 시간이다! 준비 됐어?\n소녀: 아니, 안 됐어. 내 테니스 라켓이 어디 있지?\n소년: ① 그것은 좋은 라켓이야."
     }
   ],
   "dictation": {

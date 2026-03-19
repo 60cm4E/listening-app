@@ -193,8 +193,7 @@
       "answer": 4,
       "script": "M: angry\nM: happy\nM: sad\nM: heavy",
       "explanation": "",
-      "translation": "남자: 화난\n남자: 행복한\n남자: 슬픈\n남자: 무거운",
-      "testPageImage": "/images/round5/page_35.png"
+      "translation": "남자: 화난\n남자: 행복한\n남자: 슬픈\n남자: 무거운"
     },
     {
       "number": 2,
@@ -208,8 +207,7 @@
       "answer": 3,
       "script": "W: Put on your mask, please.\nW: I don’t like the color.\nW: Don’t touch the picture, please.\nW: Please sit and wait here.",
       "explanation": "",
-      "translation": "여자: 마스크를 써 주세요.\n여자: 저는 색깔이 마음에 들지 않아요.\n여자: 그림을 만지지 말아 주세요.\n여자: 여기 앉아서 기다려 주세요.",
-      "testPageImage": "/images/round5/page_35.png"
+      "translation": "여자: 마스크를 써 주세요.\n여자: 저는 색깔이 마음에 들지 않아요.\n여자: 그림을 만지지 말아 주세요.\n여자: 여기 앉아서 기다려 주세요."
     },
     {
       "number": 3,
@@ -223,8 +221,7 @@
       "answer": 2,
       "script": "G: Who are you?\nG: Can you help me?\nG: What is he doing?\nG: Wow. Is this your tent?",
       "explanation": "텐트 조립하는 법을 몰라 서 아빠에게 도움을 요청 하는 상황이다.",
-      "translation": "소녀: 당신은 누구세요?\n소녀: 저를 도와주실 수 있으세요?\n소녀: 그는 무엇을 하고 있나요?\n소녀: 와. 이게 당신의 텐트인가요?",
-      "testPageImage": "/images/round5/page_35.png"
+      "translation": "소녀: 당신은 누구세요?\n소녀: 저를 도와주실 수 있으세요?\n소녀: 그는 무엇을 하고 있나요?\n소녀: 와. 이게 당신의 텐트인가요?"
     },
     {
       "number": 4,
@@ -238,8 +235,7 @@
       "answer": 4,
       "script": "B: Where is your brother? G : He is in the kitchen.\nB: Are you thirsty? G : Yes, I am. I’m thirsty.\nB: Happy birthday. This is for you. G : Oh, thank you, Jason.\nB: Sujin, this is my cousin Nicole. G : Nice to meet you!",
       "explanation": "",
-      "translation": "소년: 너의 남동생은 어디에 있니?\n소녀: 그는 부엌에 있어.\n소년: 너는 목마르니?\n소녀: 응, 그래. 나는 목말라.\n소년: 생일 축하해. 이것은 너를 위한 거야.\n소녀: 오, 고마워, 제이슨.\n소년: 수진아, 얘는 내 사촌 니콜이야.\n소녀: 만나서 반가워!",
-      "testPageImage": "/images/round5/page_35.png"
+      "translation": "소년: 너의 남동생은 어디에 있니?\n소녀: 그는 부엌에 있어.\n소년: 너는 목마르니?\n소녀: 응, 그래. 나는 목말라.\n소년: 생일 축하해. 이것은 너를 위한 거야.\n소녀: 오, 고마워, 제이슨.\n소년: 수진아, 얘는 내 사촌 니콜이야.\n소녀: 만나서 반가워!"
     },
     {
       "number": 5,
@@ -253,8 +249,7 @@
       "answer": 1,
       "script": "B: Is this your scarf? G : No, it isn’t. It’s Ann’s.\nB: Do you want some cheesecake? G : No, he doesn’t.\nB: How much is it? G : It’s time for bed.\nB: What day is it today? G : It’s five o’clock.",
       "explanation": "",
-      "translation": "소년: 이것은 너의 스카프니?\n소녀: 아니. 그것은 앤의 것이야.\n소년: 치즈케이크 좀 먹을래?\n소녀: 아니, 그는 원하지 않아.\n소년: 그것은 얼마니?\n소녀: 잠잘 시간이야.\n소년: 오늘은 무슨 요일이니?\n소녀: 5시야.",
-      "testPageImage": "/images/round5/page_36.png"
+      "translation": "소년: 이것은 너의 스카프니?\n소녀: 아니. 그것은 앤의 것이야.\n소년: 치즈케이크 좀 먹을래?\n소녀: 아니, 그는 원하지 않아.\n소년: 그것은 얼마니?\n소녀: 잠잘 시간이야.\n소년: 오늘은 무슨 요일이니?\n소녀: 5시야."
     },
     {
       "number": 6,
@@ -269,8 +264,8 @@
       "script": "G: Look, there’s my new teacher!\nB: Where?\nG: Over there! She has brown hair.\nB: Hmm… What is she wearing?\nG: She’s wearing a green shirt and white pants.",
       "explanation": "새로운 선생님은 갈색 머 리에 초록색 셔츠와 하얀 색 바지를 입고 있다.",
       "translation": "소녀: 봐, 나의 새로운 선생님이 계셔!\n소년: 어디에?\n소녀: 저쪽에! 그분은 갈색 머리야.\n소년: 음… 그분은 무슨 옷을 입고 계시니?\n소녀: 그분은 초록색 셔츠에 하얀색 바지를 입고",
-      "testPageImage": "/images/round5/page_36.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q6.png"
     },
     {
       "number": 7,
@@ -285,8 +280,8 @@
       "script": "B: Tomorrow is Dad’s birthday.\nG: Really? I don’t have enough money for a gift.\nB: Don’t worry, Nancy. Let’s buy one together.\nG: Nice idea. Let’s go.",
       "explanation": "",
       "translation": "소년: 내일이 아빠 생신이야.\n소녀: 정말? 나는 선물을 살 돈이 충분하지 않아.\n소년: 걱정 마, 낸시. 함께 선물을 사자.\n소녀: 좋은 생각이야. 가자.",
-      "testPageImage": "/images/round5/page_36.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q7.png"
     },
     {
       "number": 8,
@@ -301,7 +296,6 @@
       "script": "W: I’m sorry I’m late, Louis.\nM: That’s okay. Let’s go.\nW: Okay, let’s. When does the movie start?\nM: It starts in five minutes.\nW: Oh, we have to hurry!",
       "explanation": "여자가 영화를 보기로 한 약속 시간에 늦은 상황 이다.",
       "translation": "여자: 늦어서 미안해, 루이스.\n남자: 괜찮아. 가자.\n여자: 좋아, 그러자. 영화는 언제 시작해?\n남자: 5분 후에 시작해.\n여자: 오, 우리는 서둘러야 해!",
-      "testPageImage": "/images/round5/page_36.png",
       "imageQuestion": true
     },
     {
@@ -317,8 +311,8 @@
       "script": "B: How’s the weather tomorrow, Kate?\nG: It’ll be sunny.\nB: Great! We have a field trip to the zoo tomorrow!\nG: Yeah. We can have fun in the sun!",
       "explanation": "",
       "translation": "소년: 내일 날씨가 어때, 케이트?\n소녀: 화창할 거야.\n소년: 좋아! 우리는 내일 동물원으로 현장 학습을\n소녀: 응. 우리는 햇빛 속에서 즐겁게 보낼 수 있어!",
-      "testPageImage": "/images/round5/page_37.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q9.png"
     },
     {
       "number": 10,
@@ -333,8 +327,8 @@
       "script": "B: Do you want to play tennis?\nG: Okay! What time can you go?\nB: How about 3:30?\nG: Great! See you then.",
       "explanation": "두 아이는 3시 30분에 만 나자고 했다.",
       "translation": "소년: 너는 테니스를 치고 싶니?\n소녀: 좋아! 너는 몇 시에 갈 수 있니?\n소년: 3시 30분 어때?\n소녀: 좋아! 그때 보자.",
-      "testPageImage": "/images/round5/page_37.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q10.png"
     },
     {
       "number": 11,
@@ -349,8 +343,8 @@
       "script": "B: I want to eat chicken!\nG: Oh, do you like chicken?\nB: Yes, I do. It’s my favorite! How about you?\nG: Chicken is okay. I love beef.",
       "explanation": "",
       "translation": "소년: 나는 치킨이 먹고 싶어!\n소녀: 오, 너는 치킨을 좋아하니?\n소년: 응, 좋아해. 그건 내가 좋아하는 거야! 너는?\n소녀: 치킨은 괜찮아. 나는 소고기를 정말 좋아해.",
-      "testPageImage": "/images/round5/page_37.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q11.png"
     },
     {
       "number": 12,
@@ -364,8 +358,7 @@
       "answer": 4,
       "script": "M: A boy is playing the piano.\nM: A boy is walking his dog.\nM: A boy is talking on the phone.\nM: A boy is drawing a picture.",
       "explanation": "",
-      "translation": "남자: 남자아이가 피아노를 치고 있다.\n남자: 남자아이가 자신의 개를 산책시키고 있다.\n남자: 남자아이가 전화 통화를 하고 있다.\n남자: 남자아이가 그림을 그리고 있다.",
-      "testPageImage": "/images/round5/page_37.png"
+      "translation": "남자: 남자아이가 피아노를 치고 있다.\n남자: 남자아이가 자신의 개를 산책시키고 있다.\n남자: 남자아이가 전화 통화를 하고 있다.\n남자: 남자아이가 그림을 그리고 있다."
     },
     {
       "number": 13,
@@ -380,8 +373,8 @@
       "script": "B: I love spring. The trees look great.\nG: Come here, Tony! Look at the flowers.\nB: Wow, how beautiful!\nG: There are so many flowers!\nB: Yes. This is a nice park.",
       "explanation": "나무와 꽃을 보며 멋진 공원이라고 말하고 있다.",
       "translation": "소년: 나는 봄을 좋아해. 나무들이 멋져 보여.\n소녀: 이리 와, 토니! 꽃들을 좀 봐.\n소년: 와, 정말 예쁘네!\n소녀: 꽃들이 정말 많아!\n소년: 응. 여기는 좋은 공원이야.",
-      "testPageImage": "/images/round5/page_38.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q13.png"
     },
     {
       "number": 14,
@@ -395,8 +388,7 @@
       "answer": 1,
       "script": "G: I love riding my bike. I ride it every day.\nB: Really? I don’t like riding a bike.\nG: What do you like?\nB: ① I like fishing. ② I have a piano practice. ③ Yes. I like riding a bike. ④ I have a bike, too.",
       "explanation": "자전거 타는 것을 좋아하 지 않는다고 하자, 그러 면 무엇을 좋아하는지 묻 고 있다.",
-      "translation": "소녀: 나는 자전거 타는 것을 매우 좋아해. 나는\n소년: 정말? 나는 자전거 타는 것을 좋아하지 않아.\n소녀: 너는 무엇을 좋아하니?\n소년: ① 나는 낚시를 좋아해.",
-      "testPageImage": "/images/round5/page_38.png"
+      "translation": "소녀: 나는 자전거 타는 것을 매우 좋아해. 나는\n소년: 정말? 나는 자전거 타는 것을 좋아하지 않아.\n소녀: 너는 무엇을 좋아하니?\n소년: ① 나는 낚시를 좋아해."
     },
     {
       "number": 15,
@@ -410,8 +402,7 @@
       "answer": 4,
       "script": "B: Do you have any sisters or brothers?\nG: Yes, I have one brother.\nB: How old is your brother?\nG: ① His name is Minho. ② He is my older brother. ③ He is in the bathroom. ④ He is seventeen years old.",
       "explanation": "오빠가 몇 살인지 묻고 있으므로 나이를 말해야 한다.",
-      "translation": "소년: 너는 언니나 오빠가 있니?\n소녀: 응, 오빠가 한 명 있어.\n소년: 너의 오빠는 몇 살이니?\n소녀: ① 그의 이름은 민호야.",
-      "testPageImage": "/images/round5/page_38.png"
+      "translation": "소년: 너는 언니나 오빠가 있니?\n소녀: 응, 오빠가 한 명 있어.\n소년: 너의 오빠는 몇 살이니?\n소녀: ① 그의 이름은 민호야."
     }
   ],
   "dictation": {

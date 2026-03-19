@@ -107,7 +107,6 @@ export function renderTest(container, round, data) {
   let answers = {};
   let showFeedback = false;
   let playCounts = {};
-  let showTestPageImage = false;
 
   function render() {
     const q = questions[currentQ];
@@ -135,16 +134,9 @@ export function renderTest(container, round, data) {
           <div class="question-instruction">${q.instruction || '잘 듣고, 알맞은 것을 고르세요.'}</div>
           ${getQuestionHint(q)}
 
-          ${isImageQ && q.testPageImage ? `
-            <div class="test-page-viewer">
-              <button class="btn btn-secondary btn-sm btn-full" id="btn-show-page" style="margin-bottom: 12px;">
-                📄 문제지 보기 (선택지 그림 확인)
-              </button>
-              ${showTestPageImage ? `
-                <div class="test-page-image-wrapper">
-                  <img src="${q.testPageImage}" alt="문제지 ${qNum}번" class="test-page-img" id="test-page-img" />
-                </div>
-              ` : ''}
+          ${isImageQ && q.questionImage ? `
+            <div class="question-image-wrapper">
+              <img src="${q.questionImage}" alt="${qNum}번 문제 그림" class="question-image" />
             </div>
           ` : ''}
 
@@ -154,7 +146,7 @@ export function renderTest(container, round, data) {
             </button>
             <div class="audio-info">
               <div class="audio-title">듣기 음원</div>
-          <div class="audio-status" id="audio-status">${ttsSpeaking ? '재생 중...' : canPlay ? '재생 버튼을 눌러주세요' : '재생 횟수를 모두 사용했습니다'}</div>
+              <div class="audio-status" id="audio-status">${ttsSpeaking ? '재생 중...' : canPlay ? '재생 버튼을 눌러주세요' : '재생 횟수를 모두 사용했습니다'}</div>
             </div>
             <span class="play-count">${plays}/1회</span>
           </div>
@@ -192,14 +184,6 @@ export function renderTest(container, round, data) {
           `}
         </div>
       </div>
-
-      <!-- Image Modal -->
-      <div class="img-modal-overlay" id="img-modal" style="display:none;">
-        <div class="img-modal-content">
-          <button class="img-modal-close" id="img-modal-close">✕</button>
-          <img id="img-modal-img" src="" alt="문제지" />
-        </div>
-      </div>
     `;
 
     attachEvents(q, qNum, canPlay);
@@ -213,7 +197,7 @@ export function renderTest(container, round, data) {
         ${q.script ? `
           <div class="feedback-script">
             <strong>📝 스크립트</strong><br/>
-            ${q.script.replace(/\n/g, '<br/>')}
+            ${q.script.replace(/\\n/g, '<br/>')}
           </div>
         ` : ''}
         ${q.explanation ? `
@@ -227,32 +211,6 @@ export function renderTest(container, round, data) {
   }
 
   function attachEvents(q, qNum, canPlay) {
-    // Show test page image button
-    document.getElementById('btn-show-page')?.addEventListener('click', () => {
-      showTestPageImage = !showTestPageImage;
-      render();
-    });
-
-    // Click on test page image to open in modal
-    document.getElementById('test-page-img')?.addEventListener('click', () => {
-      const modal = document.getElementById('img-modal');
-      const modalImg = document.getElementById('img-modal-img');
-      if (modal && modalImg) {
-        modalImg.src = q.testPageImage;
-        modal.style.display = 'flex';
-      }
-    });
-
-    // Close modal
-    document.getElementById('img-modal-close')?.addEventListener('click', () => {
-      document.getElementById('img-modal').style.display = 'none';
-    });
-    document.getElementById('img-modal')?.addEventListener('click', (e) => {
-      if (e.target.id === 'img-modal') {
-        e.target.style.display = 'none';
-      }
-    });
-
     // Play button
     const playBtn = document.getElementById('btn-play');
     playBtn?.addEventListener('click', () => {
@@ -299,7 +257,6 @@ export function renderTest(container, round, data) {
         stopAudio();
         currentQ--;
         showFeedback = answers[questions[currentQ].number || currentQ + 1] !== undefined;
-        showTestPageImage = false;
         render();
       }
     });
@@ -309,7 +266,6 @@ export function renderTest(container, round, data) {
         stopAudio();
         currentQ++;
         showFeedback = answers[questions[currentQ].number || currentQ + 1] !== undefined;
-        showTestPageImage = false;
         render();
       }
     });

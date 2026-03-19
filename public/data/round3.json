@@ -197,8 +197,7 @@
       "answer": 4,
       "script": "M: zoo\nM: park\nM: hospital\nM: flag",
       "explanation": "‘깃발’은 장소를 나타내는 낱말이 아니다.",
-      "translation": "남자: 동물원\n남자: 공원\n남자: 병원\n남자: 깃발",
-      "testPageImage": "/images/round3/page_21.png"
+      "translation": "남자: 동물원\n남자: 공원\n남자: 병원\n남자: 깃발"
     },
     {
       "number": 2,
@@ -212,8 +211,7 @@
       "answer": 1,
       "script": "W: Happy birthday, Alex!\nW: How’s it going?\nW: Nice to meet you.\nW: Put the bottle here.",
       "explanation": "",
-      "translation": "여자: 생일 축하해요, 알렉스!\n여자: 잘 지내요?\n여자: 만나서 반가워요.\n여자: 그 병을 여기에 두세요.",
-      "testPageImage": "/images/round3/page_21.png"
+      "translation": "여자: 생일 축하해요, 알렉스!\n여자: 잘 지내요?\n여자: 만나서 반가워요.\n여자: 그 병을 여기에 두세요."
     },
     {
       "number": 3,
@@ -227,8 +225,7 @@
       "answer": 2,
       "script": "B: Can you help me? G : Sure. What is it?\nB: Are you okay? G : No, I’m not. My leg hurts.\nB: How old are you? G : I’m seven years old.\nB: Is this your bike? G : Yes, it’s mine.",
       "explanation": "자전거를 타다 넘어진 여 자아이가 괜찮은지 묻는 상황이다.",
-      "translation": "소년: 나를 도와줄 수 있니?\n소녀: 그럼. 뭔데?\n소년: 너 괜찮니?\n소녀: 아니, 괜찮지 않아. 다리가 아파.\n소년: 너는 몇 살이니?\n소녀: 나는 7살이야.\n소년: 이것은 너의 자전거니?\n소녀: 응, 내 거야.",
-      "testPageImage": "/images/round3/page_21.png"
+      "translation": "소년: 나를 도와줄 수 있니?\n소녀: 그럼. 뭔데?\n소년: 너 괜찮니?\n소녀: 아니, 괜찮지 않아. 다리가 아파.\n소년: 너는 몇 살이니?\n소녀: 나는 7살이야.\n소년: 이것은 너의 자전거니?\n소녀: 응, 내 거야."
     },
     {
       "number": 4,
@@ -243,8 +240,8 @@
       "script": "B: Hello! My name is Henry. I have curly hair. And I wear glasses. It’s nice to meet you!",
       "explanation": "헨리는 곱슬머리에 안경 을 쓴 남자아이이다.",
       "translation": "소년: 안녕! 내 이름은 헨리야. 난 곱슬머리야.",
-      "testPageImage": "/images/round3/page_21.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q4.png"
     },
     {
       "number": 5,
@@ -259,8 +256,8 @@
       "script": "M: What are you doing, Jane?\nG: I am reading a book.\nM: It’s nine o’clock. It’s time for bed!\nG: Aw, okay, Dad.",
       "explanation": "",
       "translation": "남자: 뭐하고 있니, 제인?\n소녀: 책을 읽고 있어요.\n남자: 9시야. 잠잘 시간이다!\n소녀: 아우, 알았어요, 아빠.",
-      "testPageImage": "/images/round3/page_22.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q5.png"
     },
     {
       "number": 6,
@@ -275,8 +272,8 @@
       "script": "G: Can you play the piano, Jack?\nB: Yes, I can. I play the piano every day.\nG: Really? That’s great! I can’t play the piano.\nB: Hmm, what about the violin?\nG: Yes, I can play the violin.",
       "explanation": "여자아이는 바이올린을 켤 수 있다고 했다.",
       "translation": "소녀: 너는 피아노를 칠 수 있니, 잭?\n소년: 응, 칠 수 있어. 나는 매일 피아노를 쳐.\n소녀: 정말? 대단하다! 나는 피아노를 못 쳐.\n소년: 음, 바이올린은 어때?\n소녀: 응, 나는 바이올린을 켤 수 있어.",
-      "testPageImage": "/images/round3/page_22.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q6.png"
     },
     {
       "number": 7,
@@ -291,8 +288,8 @@
       "script": "B: Mom, where is my teddy bear? I can’t find it.\nW: It’s on the bed!\nB: No, it’s not on the bed.\nW: How about under the desk?\nB: Oh, I see it! Thank you.",
       "explanation": "남자아이가 찾고 있는 곰 인형은 책상 아래에 있다.",
       "translation": "소년: 엄마, 제 곰 인형 어디 있어요? 찾을 수가\n여자: 침대 위에 있어!\n소년: 아뇨, 침대 위에 없어요.\n여자: 책상 아래는 어떠니?\n소년: 오, 찾았어요! 고맙습니다.",
-      "testPageImage": "/images/round3/page_22.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q7.png"
     },
     {
       "number": 8,
@@ -307,8 +304,8 @@
       "script": "G: Hello! I want a pencil case, please.\nM: No problem! They are over here.\nG: I want this pencil case. How much is it?\nM: It’s three dollars.",
       "explanation": "여자아이는 3 달러짜리 필통을 사려고 한다.",
       "translation": "소녀: 안녕하세요! 저는 필통을 사고 싶어요.\n남자: 좋아요! 그것들은 이쪽에 있어요.\n소녀: 이 필통을 사고 싶어요. 얼마예요?\n남자: 3 달러예요.",
-      "testPageImage": "/images/round3/page_22.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q8.png"
     },
     {
       "number": 9,
@@ -323,8 +320,8 @@
       "script": "B: What day is it today, Nancy?\nG: It’s Wednesday.\nB: Wednesday? Oh, we have a music class today.\nG: Really? I love that class!\nB: Me, too!",
       "explanation": "",
       "translation": "소년: 오늘이 무슨 요일이야, 낸시?\n소녀: 수요일이야.\n소년: 수요일? 오, 오늘 음악 수업이 있어.\n소녀: 정말? 나는 그 수업을 정말 좋아해!\n소년: 나도 그래!",
-      "testPageImage": "/images/round3/page_23.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q9.png"
     },
     {
       "number": 10,
@@ -339,8 +336,8 @@
       "script": "G: What do you want for your birthday?\nB: I want a new wallet. What about you?\nG: I want a puppy.\nB: Oh! I like puppies, too.",
       "explanation": "두 사람은 원하는 생일 선 물에 대해 말하고 있다.",
       "translation": "소녀: 너는 너의 생일에 무엇을 원하니?\n소년: 나는 새 지갑을 원해. 너는 어때?\n소녀: 나는 강아지를 원해.\n소년: 오! 나도 강아지를 좋아해.",
-      "testPageImage": "/images/round3/page_23.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q10.png"
     },
     {
       "number": 11,
@@ -354,8 +351,7 @@
       "answer": 2,
       "script": "M: They are having lunch in a restaurant.\nM: They are playing in the classroom.\nM: They are dancing on the street.\nM: They are drawing pictures in the park.",
       "explanation": "",
-      "translation": "",
-      "testPageImage": "/images/round3/page_23.png"
+      "translation": ""
     },
     {
       "number": 12,
@@ -370,8 +366,8 @@
       "script": "B: Let’s go outside, Kate! It’s very sunny.\nG: Sorry, I can’t. I’m busy.\nB: Why? Do you have piano class?\nG: No. I have homework.\nB: It’s okay. We can go tomorrow.",
       "explanation": "",
       "translation": "소년: 밖에 나가자, 케이트! 날이 매우 화창해.\n소녀: 미안하지만, 안 돼. 나 바빠.\n소년: 왜? 피아노 수업이 있니?\n소녀: 아니. 숙제가 있어.\n소년: 알았어. 내일 가도 돼.",
-      "testPageImage": "/images/round3/page_23.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round3/q12.png"
     },
     {
       "number": 13,
@@ -385,8 +381,7 @@
       "answer": 3,
       "script": "B: Hi, Yumi. How are you doing?\nG: ① I’m great. ② I’m fine, thanks. ③ That’s good. ④ Not so good.",
       "explanation": "",
-      "translation": "소년: 안녕, 유미야. 어떻게 지내?\n소녀: ① 매우 좋아.",
-      "testPageImage": "/images/round3/page_22.png"
+      "translation": "소년: 안녕, 유미야. 어떻게 지내?\n소녀: ① 매우 좋아."
     },
     {
       "number": 14,
@@ -400,8 +395,7 @@
       "answer": 3,
       "script": "W: Hello! How can I help you?\nM: Hello! I want to go to Busan.\nW: How many tickets?\nM: ① I want tickets. ② Yes, you’re right. ③ Two tickets, please. ④ I have ten thousand won.",
       "explanation": "표를 몇 장 원하는지 묻고 있으므로 개수를 말해야 한다.",
-      "translation": "여자: 안녕하세요! 어떻게 도와드릴까요?\n남자: 안녕하세요! 저는 부산에 가고 싶어요.\n여자: 표는 몇 장이요?\n남자: ① 저는 표를 원해요.",
-      "testPageImage": "/images/round3/page_24.png"
+      "translation": "여자: 안녕하세요! 어떻게 도와드릴까요?\n남자: 안녕하세요! 저는 부산에 가고 싶어요.\n여자: 표는 몇 장이요?\n남자: ① 저는 표를 원해요."
     },
     {
       "number": 15,
@@ -415,8 +409,7 @@
       "answer": 4,
       "script": "B: Can you give me a bowl, please?\nG: Sure! Here you are.\nB: Thank you so much.\nG: ① No, thank you. ② Please help me. ③ I am very happy. ④ You’re welcome.\nB: You’re welcome . 그릇 1 추운 4 7 2 가다 5 만나다 6 청소하다 3 g o m e e t r e a l l y o w l b h e a p c c l e a n c o l d 정말 (가격이) 싼 본책 24~25쪽 쉬어가기 정답 및 해설 15",
       "explanation": "고맙다는 말에 대해 ‘천만 에’라고 답해야 한다.",
-      "translation": "소년: 나에게 그릇을 하나 줄래?\n소녀: 응! 여기 있어.\n소년: 정말 고마워.\n소녀: ① 아니, 괜찮아.",
-      "testPageImage": "/images/round3/page_24.png"
+      "translation": "소년: 나에게 그릇을 하나 줄래?\n소녀: 응! 여기 있어.\n소년: 정말 고마워.\n소녀: ① 아니, 괜찮아."
     }
   ],
   "dictation": {

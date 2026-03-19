@@ -229,8 +229,7 @@
       "answer": 3,
       "script": "M: bread\nM: black\nM: desk\nM: boat",
       "explanation": "desk는 첫소리가 /d/이 고, 나머지는 모두 첫소리 가 /b/이다.",
-      "translation": "남자: 빵\n남자: 검은색\n남자: 책상\n남자: 보트, 배",
-      "testPageImage": "/images/round1/page_9.png"
+      "translation": "남자: 빵\n남자: 검은색\n남자: 책상\n남자: 보트, 배"
     },
     {
       "number": 2,
@@ -244,8 +243,7 @@
       "answer": 2,
       "script": "W: eraser\nW: ruler\nW: scissors\nW: pencil",
       "explanation": "",
-      "translation": "여자: 지우개\n여자: 자\n여자: 가위\n여자: 연필",
-      "testPageImage": "/images/round1/page_9.png"
+      "translation": "여자: 지우개\n여자: 자\n여자: 가위\n여자: 연필"
     },
     {
       "number": 3,
@@ -259,8 +257,7 @@
       "answer": 1,
       "script": "B: I’m so sorry.\nB: This is for you.\nB: Thank you so much.\nB: Nice to meet you.",
       "explanation": "",
-      "translation": "소년: 미안해.\n소년: 이건 널 위한 거야.\n소년: 정말 고마워.\n소년: 만나서 반가워.",
-      "testPageImage": "/images/round1/page_9.png"
+      "translation": "소년: 미안해.\n소년: 이건 널 위한 거야.\n소년: 정말 고마워.\n소년: 만나서 반가워."
     },
     {
       "number": 4,
@@ -274,8 +271,7 @@
       "answer": 4,
       "script": "B: What’s this, Judy? G : It’s cloudy today.\nB: Can you skate? G : Yes, I’m in the kitchen.\nB: How much is this pencil? G : No, I’m not.\nB: Are you okay? G : Yes, I am.",
       "explanation": "",
-      "translation": "소년: 이건 뭐야, 주디?\n소녀: 오늘 날이 흐려.\n소년: 너는 스케이트를 탈 수 있니?\n소녀: 응. 나는 부엌에 있어.\n소년: 이 연필은 얼마니?\n소녀: 아니, 나는 아니야.\n소년: 너 괜찮니?\n소녀: 응, 괜찮아.",
-      "testPageImage": "/images/round1/page_9.png"
+      "translation": "소년: 이건 뭐야, 주디?\n소녀: 오늘 날이 흐려.\n소년: 너는 스케이트를 탈 수 있니?\n소녀: 응. 나는 부엌에 있어.\n소년: 이 연필은 얼마니?\n소녀: 아니, 나는 아니야.\n소년: 너 괜찮니?\n소녀: 응, 괜찮아."
     },
     {
       "number": 5,
@@ -290,8 +286,8 @@
       "script": "G: Look! My sister is over there.\nB: Which one is your sister? Does she have short hair?\nG: No, she has long hair.\nB: Oh, I see her! She is wearing a red hairpin.",
       "explanation": "여자아이의 여동생은 긴 머리에 빨간 머리핀을 꽂 고 있다.",
       "translation": "소녀: 봐! 내 여동생이 저기에 있어.\n소년: 누가 너의 여동생이니? 머리가 짧으니?\n소녀: 아니, 머리가 길어.\n소년: 오, 알겠다! 그 애는 빨간색 머리핀을 꽂고",
-      "testPageImage": "/images/round1/page_10.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q5.png"
     },
     {
       "number": 6,
@@ -306,8 +302,8 @@
       "script": "G: Jack, do you like history?\nB: Yes, I do. It’s very interesting.\nG: Really? I don’t like history.\nB: What’s your favorite subject?\nG: My favorite subject is science.",
       "explanation": "두 사람은 좋아하는 과목 에 대해 말하고 있다.",
       "translation": "소녀: 잭, 너는 역사를 좋아하니?\n소년: 응, 좋아해. 그건 정말 재미있어.\n소녀: 정말? 나는 역사를 좋아하지 않아.\n소년: 네가 좋아하는 과목은 뭔데?\n소녀: 내가 좋아하는 과목은 과학이야.",
-      "testPageImage": "/images/round1/page_10.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q6.png"
     },
     {
       "number": 7,
@@ -322,8 +318,8 @@
       "script": "B: Can you play badminton?\nG: Yes, I can. I love it. How about you?\nB: I can’t play badminton. But I can play tennis.\nG: Really? I can play tennis, too.",
       "explanation": "남자아이는 테니스를 칠 수 있다고 했다.",
       "translation": "소년: 너는 배드민턴을 칠 수 있니?\n소녀: 응, 칠 수 있어. 나는 그것을 정말 좋아해.\n소년: 나는 배드민턴을 칠 수 없어. 하지만 테니스를\n소녀: 정말? 나도 테니스를 칠 수 있어.",
-      "testPageImage": "/images/round1/page_10.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q7.png"
     },
     {
       "number": 8,
@@ -337,8 +333,7 @@
       "answer": 4,
       "script": "W: Be careful, please.\nW: Glad to meet you.\nW: I have dinner at 6:30 p.m.\nW: This is my friend, Chris.",
       "explanation": "this is ~는 다른 사람을 소개할 때 쓰는 표현이다.",
-      "translation": "여자: 조심하세요.\n여자: 만나서 반가워요.\n여자: 저는 6시 30분에 저녁을 먹어요.\n여자: 이 아이는 제 친구 크리스예요.",
-      "testPageImage": "/images/round1/page_10.png"
+      "translation": "여자: 조심하세요.\n여자: 만나서 반가워요.\n여자: 저는 6시 30분에 저녁을 먹어요.\n여자: 이 아이는 제 친구 크리스예요."
     },
     {
       "number": 9,
@@ -353,8 +348,8 @@
       "script": "G: Minho, let’s go to a movie this Saturday.\nB: I’m sorry, but I can’t.\nG: Why not? Do you have other plans?\nB: Yes. I have a soccer match this Saturday.",
       "explanation": "이번 토요일에 축구 시합 이 있어서 영화를 보러 갈 수 없다고 했다.",
       "translation": "소녀: 민호야, 이번 주 토요일에 영화 보러 가자.\n소년: 미안하지만, 안 돼.\n소녀: 왜 안 돼? 다른 계획이 있니?\n소년: 응. 이번 토요일에 축구 시합이 있어.",
-      "testPageImage": "/images/round1/page_11.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q9.png"
     },
     {
       "number": 10,
@@ -369,8 +364,8 @@
       "script": "M: May I help you?\nG: Yes, please. I want to borrow these books.\nM: Okay, do you have a library card?\nG: Yes, here you are.",
       "explanation": "",
       "translation": "남자: 도와 드릴까요?\n소녀: 네. 이 책들을 대출하고 싶어요.\n남자: 알겠습니다, 도서 대출 카드가 있나요?\n소녀: 네, 여기 있습니다.",
-      "testPageImage": "/images/round1/page_11.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q10.png"
     },
     {
       "number": 11,
@@ -385,8 +380,8 @@
       "script": "B: How’s the weather now, Mom?\nW: It’s windy. It’s very cold today.\nB: Oh, no. I have a sports class today.\nW: Put on your sweater and gloves.",
       "explanation": "지금 날씨는 바람이 불고 춥다고 했다.",
       "translation": "소년: 지금 날씨가 어때요, 엄마?\n여자: 바람이 불어. 오늘 매우 춥다.\n소년: 오, 안 돼요. 오늘 스포츠 수업이 있어요.\n여자: 스웨터를 입고 장갑을 껴라.",
-      "testPageImage": "/images/round1/page_11.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q11.png"
     },
     {
       "number": 12,
@@ -401,8 +396,8 @@
       "script": "M: Excuse me. I want to buy some apples and oranges.\nW: Okay. How many do you want?\nM: I want three apples and five oranges.\nW: Three apples and five oranges?\nM: That’s right.",
       "explanation": "사과 3개와 오렌지 5개를 사고 싶다고 했으므로 총 8개의 과일을 사려고 한 다.",
       "translation": "남자: 실례합니다. 사과와 오렌지를 좀 사고 싶어요.\n여자: 네. 몇 개를 사고 싶으세요?\n남자: 사과 3개와 오렌지 5개를 사고 싶어요.\n여자: 사과 3개와 오렌지 5개요?\n남자: 맞아요.",
-      "testPageImage": "/images/round1/page_11.png",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round1/q12.png"
     },
     {
       "number": 13,
@@ -416,8 +411,7 @@
       "answer": 3,
       "script": "M: They are flying kites.\nM: They are running on the street.\nM: They are playing basketball.\nM: They are riding bikes.",
       "explanation": "",
-      "translation": "남자: 그들은 연을 날리고 있다.\n남자: 그들은 길에서 달리고 있다.\n남자: 그들은 농구를 하고 있다.\n남자: 그들은 자전거를 타고 있다.",
-      "testPageImage": "/images/round1/page_12.png"
+      "translation": "남자: 그들은 연을 날리고 있다.\n남자: 그들은 길에서 달리고 있다.\n남자: 그들은 농구를 하고 있다.\n남자: 그들은 자전거를 타고 있다."
     },
     {
       "number": 14,
@@ -431,8 +425,7 @@
       "answer": 2,
       "script": "G: We have art and math class today.\nB: Really? What day is it today?\nG: ① It’s seven o’clock. ② It’s Wednesday. ③ It’s time for school. ④ It’s my book.",
       "explanation": "오늘이 무슨 요일인지 묻 고 있으므로 요일을 말해 야 한다.",
-      "translation": "소녀: 오늘 우리는 미술과 수학 수업이 있어.\n소년: 정말? 오늘이 무슨 요일이니?\n소녀: ① 7시야.",
-      "testPageImage": "/images/round1/page_12.png"
+      "translation": "소녀: 오늘 우리는 미술과 수학 수업이 있어.\n소년: 정말? 오늘이 무슨 요일이니?\n소녀: ① 7시야."
     },
     {
       "number": 15,
@@ -446,8 +439,7 @@
       "answer": 4,
       "script": "B: What do you do on weekends?\nG: I go hiking with my dad. How about you?\nB: ① I had a good time. ② I can swim very well. ③ I like hiking with you. ④ I walk my dog in the park.",
       "explanation": "주말마다 무엇을 하는지 되묻고 있으므로 주말마 다 하는 일을 말하는 것 이 알맞다.",
-      "translation": "소년: 너는 주말마다 무엇을 하니?\n소녀: 나는 아빠와 함께 등산을 가. 너는?\n소년: ① 나는 좋은 시간을 보냈어.",
-      "testPageImage": "/images/round1/page_12.png"
+      "translation": "소년: 너는 주말마다 무엇을 하니?\n소녀: 나는 아빠와 함께 등산을 가. 너는?\n소년: ① 나는 좋은 시간을 보냈어."
     }
   ],
   "dictation": {
