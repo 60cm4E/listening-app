@@ -62,7 +62,7 @@ export const store = {
       const round = this.getRound(i);
       if (round.vocab) completed++;
       if (round.test) completed++;
-      if (round.dictation && Object.keys(round.dictation).length >= 1) completed++;
+      if (round.dictation && Object.keys(round.dictation).length >= 3) completed++;
     }
     return completed / totalStages;
   },
@@ -73,7 +73,7 @@ export const store = {
     return {
       vocab: !!round.vocab,
       test: !!round.test,
-      dictation: !!(round.dictation && Object.keys(round.dictation).length >= 1),
+      dictation: !!(round.dictation && Object.keys(round.dictation).length >= 3),
     };
   },
 

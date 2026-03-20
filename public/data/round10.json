@@ -431,8 +431,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I am very ___.",
+        "answer": "excited",
+        "hint": "신이 나는"
+      },
+      {
+        "sentence": "She has ___ hair.",
+        "answer": "short",
+        "hint": "짧은"
+      },
+      {
+        "sentence": "We go to the ___.",
+        "answer": "museum",
+        "hint": "박물관"
+      },
+      {
+        "sentence": "I want some ___.",
+        "answer": "milk",
+        "hint": "우유"
+      },
+      {
+        "sentence": "It is very ___ today.",
+        "answer": "cloudy",
+        "hint": "흐린"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "What are you ___ for?",
+        "answer": "looking",
+        "hint": "찾고 있다"
+      },
+      {
+        "sentence": "I can ___ very fast.",
+        "answer": "run",
+        "hint": "달리다"
+      },
+      {
+        "sentence": "Where is the ___ station?",
+        "answer": "train",
+        "hint": "기차"
+      },
+      {
+        "sentence": "She ___ English very well.",
+        "answer": "speaks",
+        "hint": "말하다"
+      },
+      {
+        "sentence": "We have to ___ now.",
+        "answer": "go",
+        "hint": "가다"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "What are you looking for?",
+        "hint": "무엇을 찾고 있니?"
+      },
+      {
+        "answer": "I can run very fast.",
+        "hint": "매우 빠르게 달릴 수 있다"
+      },
+      {
+        "answer": "She speaks English very well.",
+        "hint": "영어를 매우 잘한다"
+      },
+      {
+        "answer": "Where is the train station?",
+        "hint": "기차역이 어디에 있나요?"
+      },
+      {
+        "answer": "We have to go now.",
+        "hint": "지금 가야 한다"
+      }
+    ]
   }
 }

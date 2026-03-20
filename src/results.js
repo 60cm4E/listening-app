@@ -60,11 +60,11 @@ export function renderResults(container, round, data) {
           <div class="score-detail">
             <span>
               <span class="value">${score}</span>
-              맞힘
+              정답
             </span>
             <span>
               <span class="value">${total - score}</span>
-              틀림
+              오답
             </span>
             <span>
               <span class="value">${total}</span>
@@ -120,7 +120,7 @@ export function renderResults(container, round, data) {
                   ${q.script ? `
                     <div class="feedback-script">
                       <strong>📝 스크립트</strong><br/>
-                      ${q.script.replace(/\n/g, '<br/>')}
+                      ${q.script.replace(/\\n/g, '<br/>').replace(/\n/g, '<br/>')}
                     </div>
                   ` : ''}
                   ${q.explanation ? `
@@ -174,10 +174,17 @@ export function renderResults(container, round, data) {
       btn.addEventListener('click', () => {
         const qNum = btn.dataset.replay;
         const audio = new Audio(`/audio/q/${round}/${qNum}`);
-        audio.play().catch(() => {});
+        audio.play().catch(() => {
+          btn.textContent = '⚠️ 음원 없음';
+          btn.style.opacity = '0.5';
+        });
         btn.textContent = '🔊 재생 중...';
         audio.addEventListener('ended', () => {
           btn.textContent = '🔊 다시 듣기';
+        });
+        audio.addEventListener('error', () => {
+          btn.textContent = '⚠️ 음원 없음';
+          btn.style.opacity = '0.5';
         });
       });
     });

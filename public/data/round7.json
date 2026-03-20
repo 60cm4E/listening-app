@@ -456,8 +456,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I have a ___.",
+        "answer": "cat",
+        "hint": "고양이"
+      },
+      {
+        "sentence": "She is ___.",
+        "answer": "tall",
+        "hint": "키가 큰"
+      },
+      {
+        "sentence": "I like ___.",
+        "answer": "pizza",
+        "hint": "피자"
+      },
+      {
+        "sentence": "It is very ___.",
+        "answer": "hot",
+        "hint": "더운"
+      },
+      {
+        "sentence": "Where are my ___?",
+        "answer": "shoes",
+        "hint": "신발"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "What are you ___?",
+        "answer": "doing",
+        "hint": "하고 있니"
+      },
+      {
+        "sentence": "I am looking for my ___.",
+        "answer": "umbrella",
+        "hint": "우산"
+      },
+      {
+        "sentence": "Can you play the ___?",
+        "answer": "guitar",
+        "hint": "기타"
+      },
+      {
+        "sentence": "It is time for ___.",
+        "answer": "dinner",
+        "hint": "저녁 식사"
+      },
+      {
+        "sentence": "How many ___ do you have?",
+        "answer": "books",
+        "hint": "책"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "What are you doing now?",
+        "hint": "지금 뭐 하고 있니?"
+      },
+      {
+        "answer": "I am looking for my umbrella.",
+        "hint": "우산을 찾고 있다"
+      },
+      {
+        "answer": "It is time for dinner.",
+        "hint": "저녁 먹을 시간이다"
+      },
+      {
+        "answer": "How many books do you have?",
+        "hint": "책이 몇 권 있니?"
+      },
+      {
+        "answer": "I like pizza very much.",
+        "hint": "피자를 매우 좋아한다"
+      }
+    ]
   }
 }

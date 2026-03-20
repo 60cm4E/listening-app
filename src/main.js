@@ -51,6 +51,18 @@ async function navigate() {
     document.removeEventListener('keydown', window._homeKeyHandler);
     window._homeKeyHandler = null;
   }
+  if (window._vocabKeyHandler) {
+    document.removeEventListener('keydown', window._vocabKeyHandler);
+    window._vocabKeyHandler = null;
+  }
+  if (window._testKeyHandler) {
+    document.removeEventListener('keydown', window._testKeyHandler);
+    window._testKeyHandler = null;
+  }
+  if (window._dictKeyHandler) {
+    document.removeEventListener('keydown', window._dictKeyHandler);
+    window._dictKeyHandler = null;
+  }
 
   main.innerHTML = '';
   main.style.animation = 'none';

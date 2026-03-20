@@ -114,7 +114,7 @@ export function renderTest(container, round, data) {
     const answered = answers[qNum] !== undefined;
     const isCorrect = answered && answers[qNum] === q.answer;
     const plays = playCounts[qNum] || 0;
-    const canPlay = plays < 1;
+    const canPlay = plays < 2;
     const isImageQ = q.imageQuestion;
 
     container.innerHTML = `
@@ -148,7 +148,7 @@ export function renderTest(container, round, data) {
               <div class="audio-title">듣기 음원</div>
               <div class="audio-status" id="audio-status">${ttsSpeaking ? '재생 중...' : canPlay ? '재생 버튼을 눌러주세요' : '재생 횟수를 모두 사용했습니다'}</div>
             </div>
-            <span class="play-count">${plays}/1회</span>
+            <span class="play-count">${plays}/2회</span>
           </div>
 
           <div class="answer-choices ${isImageQ ? 'image-choices' : ''}">
@@ -328,6 +328,7 @@ export function renderTest(container, round, data) {
       }
     };
     document.addEventListener('keydown', keyHandler);
+    window._testKeyHandler = keyHandler;
   }
 
   render();

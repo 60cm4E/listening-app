@@ -435,8 +435,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "See you ___.",
+        "answer": "tomorrow",
+        "hint": "내일"
+      },
+      {
+        "sentence": "Be ___! It is hot.",
+        "answer": "careful",
+        "hint": "조심하는"
+      },
+      {
+        "sentence": "My name is ___.",
+        "answer": "Ruby",
+        "hint": "이름"
+      },
+      {
+        "sentence": "I want a ___.",
+        "answer": "hamburger",
+        "hint": "햄버거"
+      },
+      {
+        "sentence": "It is ___ o clock.",
+        "answer": "nine",
+        "hint": "아홉"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "Let us clean our ___.",
+        "answer": "room",
+        "hint": "방"
+      },
+      {
+        "sentence": "She is wearing a ___ shirt and ___ jeans.",
+        "answer": "white, blue",
+        "hint": "흰색, 파란색"
+      },
+      {
+        "sentence": "Can you ___ me?",
+        "answer": "help",
+        "hint": "돕다"
+      },
+      {
+        "sentence": "How ___ is it?",
+        "answer": "much",
+        "hint": "얼마"
+      },
+      {
+        "sentence": "I am from ___.",
+        "answer": "India",
+        "hint": "인도"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "I am good at math.",
+        "hint": "수학을 잘한다"
+      },
+      {
+        "answer": "My backpack is green.",
+        "hint": "내 책가방은 초록색이다"
+      },
+      {
+        "answer": "It is time for lunch.",
+        "hint": "점심 먹을 시간이다"
+      },
+      {
+        "answer": "Nice to meet you, Yumi.",
+        "hint": "만나서 반갑다"
+      },
+      {
+        "answer": "Do you want some more?",
+        "hint": "좀 더 먹을래?"
+      }
+    ]
   }
 }

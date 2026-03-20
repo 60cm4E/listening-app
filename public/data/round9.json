@@ -453,8 +453,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I am very ___.",
+        "answer": "happy",
+        "hint": "행복한"
+      },
+      {
+        "sentence": "Let us ___ together.",
+        "answer": "sing",
+        "hint": "노래하다"
+      },
+      {
+        "sentence": "It is ___ outside.",
+        "answer": "rainy",
+        "hint": "비가 오는"
+      },
+      {
+        "sentence": "She is my ___.",
+        "answer": "cousin",
+        "hint": "사촌"
+      },
+      {
+        "sentence": "I like ___.",
+        "answer": "winter",
+        "hint": "겨울"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "What is the ___?",
+        "answer": "matter",
+        "hint": "무슨 일"
+      },
+      {
+        "sentence": "Can you ___ me a favor?",
+        "answer": "do",
+        "hint": "부탁 하나"
+      },
+      {
+        "sentence": "I ___ up at seven.",
+        "answer": "wake",
+        "hint": "일어나다"
+      },
+      {
+        "sentence": "She is good at ___.",
+        "answer": "cooking",
+        "hint": "요리"
+      },
+      {
+        "sentence": "We go to school by ___.",
+        "answer": "bus",
+        "hint": "버스"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "What is the matter?",
+        "hint": "무슨 일이니?"
+      },
+      {
+        "answer": "I wake up at seven every day.",
+        "hint": "매일 7시에 일어난다"
+      },
+      {
+        "answer": "She is good at cooking.",
+        "hint": "요리를 잘한다"
+      },
+      {
+        "answer": "Let us sing together.",
+        "hint": "함께 노래하자"
+      },
+      {
+        "answer": "It is rainy outside.",
+        "hint": "밖에 비가 온다"
+      }
+    ]
   }
 }

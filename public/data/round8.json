@@ -422,8 +422,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I want to be a ___.",
+        "answer": "doctor",
+        "hint": "의사"
+      },
+      {
+        "sentence": "She has ___ eyes.",
+        "answer": "brown",
+        "hint": "갈색"
+      },
+      {
+        "sentence": "I am ___ years old.",
+        "answer": "ten",
+        "hint": "열 살"
+      },
+      {
+        "sentence": "Please ___ down.",
+        "answer": "sit",
+        "hint": "앉다"
+      },
+      {
+        "sentence": "I like ___ and dogs.",
+        "answer": "cats",
+        "hint": "고양이"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "What do you want to ___?",
+        "answer": "be",
+        "hint": "되다"
+      },
+      {
+        "sentence": "She is ___ a picture.",
+        "answer": "drawing",
+        "hint": "그리고 있다"
+      },
+      {
+        "sentence": "How old are ___?",
+        "answer": "you",
+        "hint": "너"
+      },
+      {
+        "sentence": "We ___ a test tomorrow.",
+        "answer": "have",
+        "hint": "있다"
+      },
+      {
+        "sentence": "I ___ you so much.",
+        "answer": "miss",
+        "hint": "그리워하다"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "I want to be a doctor.",
+        "hint": "의사가 되고 싶다"
+      },
+      {
+        "answer": "She is drawing a picture.",
+        "hint": "그림을 그리고 있다"
+      },
+      {
+        "answer": "We have a test tomorrow.",
+        "hint": "내일 시험이 있다"
+      },
+      {
+        "answer": "Please sit down and listen.",
+        "hint": "앉아서 들으세요"
+      },
+      {
+        "answer": "How old are you?",
+        "hint": "몇 살이니?"
+      }
+    ]
   }
 }

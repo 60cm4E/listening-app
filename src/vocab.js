@@ -201,6 +201,9 @@ export function renderVocab(container, round, data) {
     });
 
     attachKeyboard('flashcard');
+
+    // Auto-play pronunciation when card appears
+    speak(word.word);
   }
 
   function renderQuizMode() {
@@ -217,8 +220,8 @@ export function renderVocab(container, round, data) {
             <div class="score-number">${pct}</div>
             <div class="score-label">점</div>
             <div class="score-detail">
-              <span><span class="value">${quizScore}</span>맞힘</span>
-              <span><span class="value">${quizWords.length - quizScore}</span>틀림</span>
+              <span><span class="value">${quizScore}</span>정답</span>
+              <span><span class="value">${quizWords.length - quizScore}</span>오답</span>
             </div>
             <div class="score-message">${pct >= 80 ? '🎉 잘했어요!' : pct >= 60 ? '👍 괜찮아요!' : '💪 한 번 더!'}</div>
           </div>
@@ -354,6 +357,7 @@ export function renderVocab(container, round, data) {
       }
     };
     document.addEventListener('keydown', keyHandler);
+    window._vocabKeyHandler = keyHandler;
   }
 
   render();

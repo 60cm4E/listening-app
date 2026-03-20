@@ -443,8 +443,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I am so ___.",
+        "answer": "sorry",
+        "hint": "미안한"
+      },
+      {
+        "sentence": "Nice to ___ you.",
+        "answer": "meet",
+        "hint": "만나다"
+      },
+      {
+        "sentence": "She has ___ hair.",
+        "answer": "long",
+        "hint": "긴"
+      },
+      {
+        "sentence": "My favorite subject is ___.",
+        "answer": "science",
+        "hint": "과학"
+      },
+      {
+        "sentence": "It is ___ today.",
+        "answer": "windy",
+        "hint": "바람이 부는"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "This is ___ ___, Chris.",
+        "answer": "my friend",
+        "hint": "내 친구"
+      },
+      {
+        "sentence": "I have a ___ ___ this Saturday.",
+        "answer": "soccer match",
+        "hint": "축구 시합"
+      },
+      {
+        "sentence": "Do you have a ___ ___?",
+        "answer": "library card",
+        "hint": "도서 대출 카드"
+      },
+      {
+        "sentence": "Put on your ___ and ___.",
+        "answer": "sweater and gloves",
+        "hint": "스웨터와 장갑"
+      },
+      {
+        "sentence": "What day is it ___?",
+        "answer": "today",
+        "hint": "오늘"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "She is wearing a red hairpin.",
+        "hint": "빨간 머리핀을 꽂고 있다"
+      },
+      {
+        "answer": "What is your favorite subject?",
+        "hint": "좋아하는 과목"
+      },
+      {
+        "answer": "I want to borrow these books.",
+        "hint": "책을 대출하고 싶다"
+      },
+      {
+        "answer": "I go hiking with my dad.",
+        "hint": "아빠와 등산을 간다"
+      },
+      {
+        "answer": "They are playing basketball.",
+        "hint": "농구를 하고 있다"
+      }
+    ]
   }
 }

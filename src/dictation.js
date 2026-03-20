@@ -1,6 +1,29 @@
 // Dictation Practice Page
 import { store } from './store.js';
 
+// --- TTS Helper for Dictation ---
+function speakSentence(text, rate = 0.55) {
+  return new Promise((resolve) => {
+    if (!window.speechSynthesis) { resolve(); return; }
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';
+    u.rate = rate;
+    u.onend = resolve;
+    u.onerror = resolve;
+    window.speechSynthesis.speak(u);
+  });
+}
+
+let isSpeaking = false;
+
+function stopSpeaking() {
+  isSpeaking = false;
+  if (window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+  }
+}
+
 export function renderDictation(container, round, data) {
   if (!data || !data.dictation) {
     container.innerHTML = `
@@ -17,7 +40,6 @@ export function renderDictation(container, round, data) {
   let currentSentence = 0;
   let userAnswers = {};
   let checkedItems = {};
-  let currentAudio = null;
 
   function getStepData() {
     return data.dictation[`step${currentStep}`] || [];
@@ -46,9 +68,6 @@ export function renderDictation(container, round, data) {
       isCorrect = normalizeText(userAns) === normalizeText(item.answer);
     }
 
-    // Audio URL for dictation
-    const audioUrl = `/audio/dict/${round}/step${currentStep}`;
-
     container.innerHTML = `
       <div class="dict-container">
         <div class="step-selector">
@@ -73,11 +92,11 @@ export function renderDictation(container, round, data) {
 
           <div class="audio-player" style="background: linear-gradient(135deg, #e17055, #d63031);">
             <button class="play-btn" id="btn-play-dict">
-              ${currentAudio ? '⏸' : '▶'}
+              ${isSpeaking ? '⏸' : '▶'}
             </button>
             <div class="audio-info">
-              <div class="audio-title">Step ${currentStep} 음원</div>
-              <div class="audio-status">재생 버튼을 눌러 들어보세요</div>
+              <div class="audio-title">Step ${currentStep} 음원 (TTS)</div>
+              <div class="audio-status">${isSpeaking ? '재생 중...' : '재생 버튼을 눌러 들어보세요'}</div>
             </div>
           </div>
 
@@ -152,38 +171,31 @@ export function renderDictation(container, round, data) {
     // Step buttons
     document.querySelectorAll('.step-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        stopAudio();
+        stopSpeaking();
         currentStep = parseInt(btn.dataset.step);
         currentSentence = 0;
         render();
       });
     });
 
-    // Play audio
-    document.getElementById('btn-play-dict')?.addEventListener('click', () => {
-      if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-        currentAudio = null;
+    // Play audio via TTS
+    document.getElementById('btn-play-dict')?.addEventListener('click', async () => {
+      if (isSpeaking) {
+        stopSpeaking();
         render();
         return;
       }
 
-      const audio = new Audio(`/audio/dict/${round}/step${currentStep}`);
-      currentAudio = audio;
+      // Use full answer sentence for TTS (or sentence if available)
+      const textToSpeak = item.sentence 
+        ? item.sentence.replace(/___+/g, item.answer)
+        : item.answer;
 
-      audio.addEventListener('ended', () => {
-        currentAudio = null;
-        render();
-      });
+      isSpeaking = true;
+      render();
 
-      audio.addEventListener('error', () => {
-        currentAudio = null;
-      });
-
-      audio.play().catch(() => {
-        currentAudio = null;
-      });
+      await speakSentence(textToSpeak);
+      isSpeaking = false;
       render();
     });
 
@@ -210,7 +222,7 @@ export function renderDictation(container, round, data) {
     // Navigation
     document.getElementById('btn-prev-s')?.addEventListener('click', () => {
       if (currentSentence > 0) {
-        stopAudio();
+        stopSpeaking();
         currentSentence--;
         render();
       }
@@ -218,7 +230,7 @@ export function renderDictation(container, round, data) {
 
     document.getElementById('btn-next-s')?.addEventListener('click', () => {
       if (currentSentence < stepData.length - 1) {
-        stopAudio();
+        stopSpeaking();
         currentSentence++;
         render();
       }
@@ -226,7 +238,7 @@ export function renderDictation(container, round, data) {
 
     // Finish
     document.getElementById('btn-dict-finish')?.addEventListener('click', () => {
-      stopAudio();
+      stopSpeaking();
       let score = 0;
       stepData.forEach((_, i) => {
         const k = `${currentStep}-${i}`;
@@ -241,14 +253,6 @@ export function renderDictation(container, round, data) {
     // Auto-focus input
     if (!checkedItems[key]) {
       input?.focus();
-    }
-  }
-
-  function stopAudio() {
-    if (currentAudio) {
-      currentAudio.pause();
-      currentAudio.currentTime = 0;
-      currentAudio = null;
     }
   }
 
@@ -293,6 +297,7 @@ export function renderDictation(container, round, data) {
       }
     };
     document.addEventListener('keydown', keyHandler);
+    window._dictKeyHandler = keyHandler;
   }
 
   render();

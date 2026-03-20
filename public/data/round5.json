@@ -120,12 +120,12 @@
       "meaning": "함께"
     },
     {
-      "word": "in  ~",
-      "meaning": "후에"
+      "word": "in",
+      "meaning": "~후에"
     },
     {
-      "word": "have to  ~해야",
-      "meaning": "하다"
+      "word": "have to",
+      "meaning": "~해야 하다"
     },
     {
       "word": "field trip",
@@ -296,7 +296,8 @@
       "script": "W: I’m sorry I’m late, Louis.\nM: That’s okay. Let’s go.\nW: Okay, let’s. When does the movie start?\nM: It starts in five minutes.\nW: Oh, we have to hurry!",
       "explanation": "여자가 영화를 보기로 한 약속 시간에 늦은 상황 이다.",
       "translation": "여자: 늦어서 미안해, 루이스.\n남자: 괜찮아. 가자.\n여자: 좋아, 그러자. 영화는 언제 시작해?\n남자: 5분 후에 시작해.\n여자: 오, 우리는 서둘러야 해!",
-      "imageQuestion": true
+      "imageQuestion": true,
+      "questionImage": "/images/round5/q8.png"
     },
     {
       "number": 9,
@@ -406,8 +407,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "Can you ___ me?",
+        "answer": "help",
+        "hint": "돕다"
+      },
+      {
+        "sentence": "I am very ___.",
+        "answer": "thirsty",
+        "hint": "목마른"
+      },
+      {
+        "sentence": "Don not ___ the picture.",
+        "answer": "touch",
+        "hint": "만지다"
+      },
+      {
+        "sentence": "I want to eat ___.",
+        "answer": "chicken",
+        "hint": "치킨"
+      },
+      {
+        "sentence": "Come ___, Tony!",
+        "answer": "here",
+        "hint": "여기로"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "Is this your ___?",
+        "answer": "scarf",
+        "hint": "스카프"
+      },
+      {
+        "sentence": "She is wearing a ___ shirt.",
+        "answer": "green",
+        "hint": "초록색"
+      },
+      {
+        "sentence": "Let us buy one ___.",
+        "answer": "together",
+        "hint": "함께"
+      },
+      {
+        "sentence": "The movie starts in five ___.",
+        "answer": "minutes",
+        "hint": "분"
+      },
+      {
+        "sentence": "Do you want to play ___?",
+        "answer": "tennis",
+        "hint": "테니스"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "Put on your mask, please.",
+        "hint": "마스크를 써 주세요"
+      },
+      {
+        "answer": "We have a field trip tomorrow.",
+        "hint": "내일 현장 학습이 있다"
+      },
+      {
+        "answer": "I love riding my bike.",
+        "hint": "자전거 타는 것을 좋아한다"
+      },
+      {
+        "answer": "The trees look great.",
+        "hint": "나무들이 멋져 보인다"
+      },
+      {
+        "answer": "How old is your brother?",
+        "hint": "오빠는 몇 살이니?"
+      }
+    ]
   }
 }

@@ -413,8 +413,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "Happy ___, Alex!",
+        "answer": "birthday",
+        "hint": "생일"
+      },
+      {
+        "sentence": "My leg ___.",
+        "answer": "hurts",
+        "hint": "아프다"
+      },
+      {
+        "sentence": "I wear ___.",
+        "answer": "glasses",
+        "hint": "안경"
+      },
+      {
+        "sentence": "It is time for ___.",
+        "answer": "bed",
+        "hint": "잠자리"
+      },
+      {
+        "sentence": "How ___ is it?",
+        "answer": "much",
+        "hint": "얼마"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "I can play the ___.",
+        "answer": "violin",
+        "hint": "바이올린"
+      },
+      {
+        "sentence": "It is under the ___.",
+        "answer": "desk",
+        "hint": "책상"
+      },
+      {
+        "sentence": "We have a ___ class today.",
+        "answer": "music",
+        "hint": "음악"
+      },
+      {
+        "sentence": "I want a new ___.",
+        "answer": "wallet",
+        "hint": "지갑"
+      },
+      {
+        "sentence": "Two ___, please.",
+        "answer": "tickets",
+        "hint": "표"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "I am reading a book.",
+        "hint": "책을 읽고 있다"
+      },
+      {
+        "answer": "I play the piano every day.",
+        "hint": "매일 피아노를 친다"
+      },
+      {
+        "answer": "Where is my teddy bear?",
+        "hint": "내 곰 인형은 어디에"
+      },
+      {
+        "answer": "It is three dollars.",
+        "hint": "3달러입니다"
+      },
+      {
+        "answer": "Let us go outside.",
+        "hint": "밖에 나가자"
+      }
+    ]
   }
 }

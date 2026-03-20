@@ -427,8 +427,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I like ___.",
+        "answer": "spring",
+        "hint": "봄"
+      },
+      {
+        "sentence": "She is my ___.",
+        "answer": "sister",
+        "hint": "여동생"
+      },
+      {
+        "sentence": "Where is the ___?",
+        "answer": "hospital",
+        "hint": "병원"
+      },
+      {
+        "sentence": "I am ___.",
+        "answer": "hungry",
+        "hint": "배고픈"
+      },
+      {
+        "sentence": "It is very ___.",
+        "answer": "cold",
+        "hint": "추운"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "Can you ___ the guitar?",
+        "answer": "play",
+        "hint": "치다"
+      },
+      {
+        "sentence": "I go to school by ___.",
+        "answer": "bus",
+        "hint": "버스"
+      },
+      {
+        "sentence": "What ___ is it?",
+        "answer": "time",
+        "hint": "시간"
+      },
+      {
+        "sentence": "I want some ___.",
+        "answer": "water",
+        "hint": "물"
+      },
+      {
+        "sentence": "Let us go to the ___.",
+        "answer": "park",
+        "hint": "공원"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "How is the weather today?",
+        "hint": "오늘 날씨가 어때?"
+      },
+      {
+        "answer": "I have a headache.",
+        "hint": "머리가 아프다"
+      },
+      {
+        "answer": "She can play the guitar.",
+        "hint": "기타를 칠 수 있다"
+      },
+      {
+        "answer": "What do you want for lunch?",
+        "hint": "점심으로 뭘 먹고 싶어?"
+      },
+      {
+        "answer": "I go to school every day.",
+        "hint": "매일 학교에 간다"
+      }
+    ]
   }
 }

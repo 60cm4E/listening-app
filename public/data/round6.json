@@ -454,8 +454,81 @@
     }
   ],
   "dictation": {
-    "step1": [],
-    "step2": [],
-    "step3": []
+    "step1": [
+      {
+        "sentence": "I like ___.",
+        "answer": "summer",
+        "hint": "여름"
+      },
+      {
+        "sentence": "She is a ___.",
+        "answer": "teacher",
+        "hint": "선생님"
+      },
+      {
+        "sentence": "I am very ___.",
+        "answer": "tired",
+        "hint": "피곤한"
+      },
+      {
+        "sentence": "Where is the ___?",
+        "answer": "library",
+        "hint": "도서관"
+      },
+      {
+        "sentence": "It is ___ today.",
+        "answer": "sunny",
+        "hint": "화창한"
+      }
+    ],
+    "step2": [
+      {
+        "sentence": "What is your favorite ___?",
+        "answer": "color",
+        "hint": "색깔"
+      },
+      {
+        "sentence": "Can I have some ___?",
+        "answer": "juice",
+        "hint": "주스"
+      },
+      {
+        "sentence": "I go swimming on ___.",
+        "answer": "Saturdays",
+        "hint": "토요일마다"
+      },
+      {
+        "sentence": "She is reading a ___.",
+        "answer": "book",
+        "hint": "책"
+      },
+      {
+        "sentence": "Let us go to the ___.",
+        "answer": "beach",
+        "hint": "해변"
+      }
+    ],
+    "step3": [
+      {
+        "answer": "What is your favorite color?",
+        "hint": "좋아하는 색깔은?"
+      },
+      {
+        "answer": "I go swimming every Saturday.",
+        "hint": "매주 토요일에 수영을 간다"
+      },
+      {
+        "answer": "Can I have some water?",
+        "hint": "물 좀 주세요"
+      },
+      {
+        "answer": "She is reading a book.",
+        "hint": "책을 읽고 있다"
+      },
+      {
+        "answer": "Let us go to the beach.",
+        "hint": "해변에 가자"
+      }
+    ]
   }
 }

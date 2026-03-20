@@ -58,6 +58,12 @@ export function renderHome(container) {
     </div>
   `;
 
+  html += `
+    <div class="mt-24 text-center">
+      <button class="btn btn-sm" id="btn-reset-data" style="color: var(--text-muted); border: 1px solid var(--border); background: transparent; font-size: 12px;">🔄 학습 데이터 초기화</button>
+    </div>
+  `;
+
   container.innerHTML = html;
 
   // Keyboard shortcuts
@@ -74,6 +80,14 @@ export function renderHome(container) {
     }
   };
   document.addEventListener('keydown', window._homeKeyHandler);
+
+  // Reset button
+  document.getElementById('btn-reset-data')?.addEventListener('click', () => {
+    if (confirm('정말 모든 학습 데이터를 초기화하시겠습니까?\n(진도율, 시험 결과, 받아쓰기 기록이 모두 삭제됩니다)')) {
+      store.reset();
+      renderHome(container);
+    }
+  });
 }
 
 export function renderRoundDetail(container, round) {
